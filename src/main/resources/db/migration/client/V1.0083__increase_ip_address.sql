@@ -1,0 +1,1 @@
+ALTER TABLE ip_cache MODIFY COLUMN ip_address VARCHAR(120);

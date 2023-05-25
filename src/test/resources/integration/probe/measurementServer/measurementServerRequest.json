@@ -1,0 +1,15 @@
+{
+  "name": "EKIP Server (Podgorica)",
+  "webAddress": "ekip-m01.customers.nettest.org",
+  "secretKey": "CUuHa7PD84gkLK6xopSX9j7Y8kgp688MGAeauupS3T0WoSg9N81Edoxam96F0rE7Nr5pQBLEzupUXkpwMXDa5JtlD3sziz4QQh62",
+  "serverTypeDetails": [
+    {
+      "port": "442",
+      "portSsl": "5232",
+      "encrypted": true,
+      "serverType": "RMBT"
+    }
+  ],
+  "providerId": 1,
+  "isOnNet": true
+}

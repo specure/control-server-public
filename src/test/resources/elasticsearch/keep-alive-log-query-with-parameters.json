@@ -1,0 +1,91 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "range" : {
+          "createdDate" : {
+            "from" : "2020-01-01T00:00:00.000Z",
+            "to" : "2020-10-01T00:00:00.000Z",
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"probe001\"*",
+                "default_field" : "probeId",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"port3\"*",
+                "default_field" : "port",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "term" : {
+          "tenant.keyword" : {
+            "value" : "sah",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "exists" : {
+          "field" : "adHocCampaign",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

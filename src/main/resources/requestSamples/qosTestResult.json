@@ -1,0 +1,1217 @@
+{
+  "test_token": "afbf5a66-2754-4923-ba33-ed4ff88521f9_1589289590_qQJyNQslKzqXxFKFdLozQJCLfrM=",
+  "client_uuid": "540607f2-2a43-4019-af89-fa6d42b9a14f",
+  "time": 1589289648171,
+  "client_version": "0.3",
+  "qos_result": [
+    {
+      "voip_result_out_short_seq": 55,
+      "voip_result_in_sequence_error": 0,
+      "voip_objective_delay": 20000000,
+      "voip_objective_sample_rate": 8000,
+      "voip_result_out_num_packets": 99,
+      "voip_objective_bits_per_sample": 8,
+      "voip_result_out_long_seq": 55,
+      "voip_result_out_max_jitter": 25441396,
+      "duration_ns": 3224200403,
+      "voip_result_out_mean_jitter": 15239686,
+      "voip_result_status": "OK",
+      "voip_result_in_num_packets": 100,
+      "voip_result_out_sequence_error": 44,
+      "voip_result_jitter": "10.36",
+      "voip_result_in_max_jitter": 13437113,
+      "voip_result_in_skew": -285795680,
+      "voip_result_out_max_delta": 255886217,
+      "voip_objective_in_port": 5061,
+      "voip_objective_call_duration": 2000000000,
+      "qos_test_uid": 76,
+      "voip_result_in_short_seq": 100,
+      "start_time_ns": 49885733175,
+      "test_type": "voip",
+      "voip_objective_payload": 8,
+      "voip_result_in_max_delta": 187987671,
+      "voip_objective_out_port": 5060,
+      "voip_result_in_mean_jitter": 5483404,
+      "voip_result_out_skew": -356101897,
+      "voip_result_in_long_seq": 100,
+      "voip_result_packet_loss": "0.0"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431168159,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 143,
+      "qos_test_uid": 116,
+      "start_time_ns": 53110339370,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 430465901,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 6881,
+      "qos_test_uid": 114,
+      "start_time_ns": 53111813898,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431195648,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 5060,
+      "qos_test_uid": 94,
+      "start_time_ns": 53111089676,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431722189,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 25,
+      "qos_test_uid": 90,
+      "start_time_ns": 53110579203,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431382591,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 993,
+      "qos_test_uid": 92,
+      "start_time_ns": 53110928367,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431872498,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 53,
+      "qos_test_uid": 100,
+      "start_time_ns": 53110472318,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 430605979,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 22,
+      "qos_test_uid": 99,
+      "start_time_ns": 53111725249,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431497993,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 21,
+      "qos_test_uid": 98,
+      "start_time_ns": 53111508875,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 432223582,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 587,
+      "qos_test_uid": 91,
+      "start_time_ns": 53110809315,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431797571,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 9001,
+      "qos_test_uid": 95,
+      "start_time_ns": 53111231952,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431705339,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 554,
+      "qos_test_uid": 96,
+      "start_time_ns": 53111329110,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431784404,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 80,
+      "qos_test_uid": 97,
+      "start_time_ns": 53111416078,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431321844,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 465,
+      "qos_test_uid": 117,
+      "start_time_ns": 53111902118,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 432360479,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 995,
+      "qos_test_uid": 93,
+      "start_time_ns": 53110993739,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 431360455,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 585,
+      "qos_test_uid": 118,
+      "start_time_ns": 53112017115,
+      "test_type": "tcp"
+    },
+    {
+      "tcp_objective_timeout": 5000000000,
+      "duration_ns": 460548521,
+      "tcp_result_out_response": "PING",
+      "tcp_result_out": "OK",
+      "tcp_objective_out_port": 110,
+      "qos_test_uid": 115,
+      "start_time_ns": 53112102160,
+      "test_type": "tcp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 870779414,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 500,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 119,
+      "start_time_ns": 53112909043,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 885293983,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 5060,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 120,
+      "start_time_ns": 53113270477,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 885714662,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 27005,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 121,
+      "start_time_ns": 53113431639,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 887291436,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 123,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 102,
+      "start_time_ns": 53112323952,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 887531577,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 53,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 104,
+      "start_time_ns": 53112599619,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 887927548,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 27015,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 103,
+      "start_time_ns": 53112614870,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 985637781,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 5004,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 101,
+      "start_time_ns": 53112251777,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 984463651,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 5005,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 123,
+      "start_time_ns": 53113662945,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 984463021,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 7078,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 124,
+      "start_time_ns": 53114020639,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 1095822812,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 7082,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 157,
+      "start_time_ns": 53114467856,
+      "test_type": "udp"
+    },
+    {
+      "udp_result_out_num_packets": 1,
+      "duration_ns": 1096996501,
+      "udp_result_out_response_num_packets": 1,
+      "udp_objective_out_num_packets": 1,
+      "udp_result_out_packet_loss_rate": "0",
+      "udp_objective_out_port": 554,
+      "udp_objective_delay": 300000000,
+      "udp_objective_timeout": 5000000000,
+      "qos_test_uid": 122,
+      "start_time_ns": 53113551249,
+      "test_type": "udp"
+    },
+    {
+      "duration_ns": 542597548,
+      "nontransproxy_result": "OK",
+      "nontransproxy_objective_request": "GET / HTTR/7.9",
+      "nontransproxy_objective_timeout": 5000000000,
+      "nontransproxy_objective_port": 22222,
+      "nontransproxy_result_response": "GET / HTTR/7.9",
+      "qos_test_uid": 85,
+      "start_time_ns": 54211090754,
+      "test_type": "non_transparent_proxy"
+    },
+    {
+      "duration_ns": 814636771,
+      "nontransproxy_result": "OK",
+      "nontransproxy_objective_request": "GET",
+      "nontransproxy_objective_timeout": 5000000000,
+      "nontransproxy_objective_port": 44444,
+      "nontransproxy_result_response": "GET",
+      "qos_test_uid": 140,
+      "start_time_ns": 54211182872,
+      "test_type": "non_transparent_proxy"
+    },
+    {
+      "duration_ns": 814417954,
+      "nontransproxy_result": "OK",
+      "nontransproxy_objective_request": "GET / HTTR/7.9",
+      "nontransproxy_objective_timeout": 5000000000,
+      "nontransproxy_objective_port": 80,
+      "nontransproxy_result_response": "GET / HTTR/7.9",
+      "qos_test_uid": 141,
+      "start_time_ns": 54211656758,
+      "test_type": "non_transparent_proxy"
+    },
+    {
+      "duration_ns": 814436195,
+      "nontransproxy_result": "OK",
+      "nontransproxy_objective_request": "SMTP Transparent",
+      "nontransproxy_objective_timeout": 5000000000,
+      "nontransproxy_objective_port": 25,
+      "nontransproxy_result_response": "SMTP Transparent",
+      "qos_test_uid": 158,
+      "start_time_ns": 54211729073,
+      "test_type": "non_transparent_proxy"
+    },
+    {
+      "duration_ns": 815193732,
+      "nontransproxy_result": "OK",
+      "nontransproxy_objective_request": "GET",
+      "nontransproxy_objective_timeout": 5000000000,
+      "nontransproxy_objective_port": 80,
+      "nontransproxy_result_response": "GET",
+      "qos_test_uid": 84,
+      "start_time_ns": 54210991354,
+      "test_type": "non_transparent_proxy"
+    },
+    {
+      "http_objective_url": "http://nettest.org/qostest/reference05.jpg",
+      "http_result_duration": 473740481,
+      "http_result_header": "Accept-Ranges: bytes\nServer: nginx/1.10.3\nETag: \"5e903e34-914e\"\nConnection: keep-alive\nLast-Modified: Fri, 10 Apr 2020 09:36:52 GMT\nContent-Length: 37198\nDate: Tue, 12 May 2020 13:20:36 GMT\nContent-Type: image/jpeg\n",
+      "duration_ns": 476095699,
+      "http_result_length": 37198,
+      "qos_test_uid": 160,
+      "start_time_ns": 55030275244,
+      "http_result_hash": "ae9592475c364fa01909dab663417ab5",
+      "test_type": "http_proxy",
+      "http_result_status": 200
+    },
+    {
+      "http_objective_url": "http://nettest.org/qostest/reference01.jpg",
+      "duration_ns": 10004113740,
+      "qos_test_uid": 163,
+      "start_time_ns": 55030439574,
+      "http_result_hash": "TIMEOUT",
+      "test_type": "http_proxy"
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "17.142.160.59",
+          "dns_result_ttl": "1101"
+        },
+        {
+          "dns_result_address": "17.178.96.59",
+          "dns_result_ttl": "1101"
+        },
+        {
+          "dns_result_address": "17.172.224.47",
+          "dns_result_ttl": "1101"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 83,
+      "start_time_ns": 65035756342,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 89725677,
+      "dns_objective_host": "apple.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 89699748,
+      "dns_result_entries_found": 3
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "31.13.81.36",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 89,
+      "start_time_ns": 65035971253,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 129709094,
+      "dns_objective_host": "facebook.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 129703138,
+      "dns_result_entries_found": 1
+    },
+    {
+      "duration_ns": 136167337,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "ftp.3ef6cc14a7.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 136158619,
+      "qos_test_uid": 86,
+      "start_time_ns": 65035834568,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "duration_ns": 138693682,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "www.9bd8975369.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 138689498,
+      "qos_test_uid": 82,
+      "start_time_ns": 65036052311,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "195.178.118.100",
+          "dns_result_ttl": "900"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 162,
+      "start_time_ns": 65035526357,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 183189887,
+      "dns_objective_host": "slovenskenovice.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 183184406,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "172.217.16.35",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 87,
+      "start_time_ns": 65034949997,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 184547761,
+      "dns_objective_host": "www.google.rs",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 184537710,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "91.202.66.188",
+          "dns_result_ttl": "60"
+        },
+        {
+          "dns_result_address": "91.202.66.189",
+          "dns_result_ttl": "60"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 105,
+      "start_time_ns": 65035446352,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 480045106,
+      "dns_objective_host": "24ur.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 480038908,
+      "dns_result_entries_found": 2
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "87.237.202.69",
+          "dns_result_ttl": "299"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 164,
+      "start_time_ns": 65035068956,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 488025399,
+      "dns_objective_host": "limundo.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 488009185,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "91.198.174.192",
+          "dns_result_ttl": "295"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 108,
+      "start_time_ns": 65523747724,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 28724560,
+      "dns_objective_host": "wikipedia.org",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 28720218,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "104.244.42.193",
+          "dns_result_ttl": "396"
+        },
+        {
+          "dns_result_address": "104.244.42.1",
+          "dns_result_ttl": "396"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 107,
+      "start_time_ns": 65524278196,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 28792706,
+      "dns_objective_host": "twitter.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 28788988,
+      "dns_result_entries_found": 2
+    },
+    {
+      "duration_ns": 89400224,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "www.da71835f1969b0240aaf.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 89396009,
+      "qos_test_uid": 153,
+      "start_time_ns": 65524359898,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "98.138.219.232",
+          "dns_result_ttl": "1800"
+        },
+        {
+          "dns_result_address": "72.30.35.9",
+          "dns_result_ttl": "1800"
+        },
+        {
+          "dns_result_address": "98.138.219.231",
+          "dns_result_ttl": "1800"
+        },
+        {
+          "dns_result_address": "98.137.246.8",
+          "dns_result_ttl": "1800"
+        },
+        {
+          "dns_result_address": "98.137.246.7",
+          "dns_result_ttl": "1800"
+        },
+        {
+          "dns_result_address": "72.30.35.10",
+          "dns_result_ttl": "1800"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 109,
+      "start_time_ns": 65523950099,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 90126285,
+      "dns_objective_host": "yahoo.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 90122613,
+      "dns_result_entries_found": 6
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "80.95.232.5",
+          "dns_result_ttl": "60"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 113,
+      "start_time_ns": 65524019418,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 115581457,
+      "dns_objective_host": "simobil.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 115577273,
+      "dns_result_entries_found": 1
+    },
+    {
+      "duration_ns": 123632043,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "touch.darkspace.akostest.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 123628459,
+      "qos_test_uid": 110,
+      "start_time_ns": 65523607398,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "193.77.1.22",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 112,
+      "start_time_ns": 65524128006,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 276892836,
+      "dns_objective_host": "telekom.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 276887345,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "40.112.72.205",
+          "dns_result_ttl": "412"
+        },
+        {
+          "dns_result_address": "40.113.200.201",
+          "dns_result_ttl": "412"
+        },
+        {
+          "dns_result_address": "13.77.161.179",
+          "dns_result_ttl": "412"
+        },
+        {
+          "dns_result_address": "104.215.148.63",
+          "dns_result_ttl": "412"
+        },
+        {
+          "dns_result_address": "40.76.4.15",
+          "dns_result_ttl": "412"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 138,
+      "start_time_ns": 65801766486,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 104698200,
+      "dns_objective_host": "microsoft.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 104691326,
+      "dns_result_entries_found": 5
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "82.117.195.197",
+          "dns_result_ttl": "60"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 139,
+      "start_time_ns": 65801662712,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 119649501,
+      "dns_objective_host": "tusmobil.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 119644299,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "193.243.141.119",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 155,
+      "start_time_ns": 65802136535,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 119194610,
+      "dns_objective_host": "finance.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 119190005,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "91.185.220.142",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 137,
+      "start_time_ns": 65801968628,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 119380967,
+      "dns_objective_host": "telemach.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 119376735,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "193.25.220.108",
+          "dns_result_ttl": "299"
+        },
+        {
+          "dns_result_address": "193.25.220.107",
+          "dns_result_ttl": "299"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 142,
+      "start_time_ns": 65801507020,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 120628406,
+      "dns_objective_host": "bolha.com",
+      "dns_objective_resolver": "8.8.8.8",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 120624135,
+      "dns_result_entries_found": 2
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "212.18.32.18",
+          "dns_result_ttl": "3600"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 136,
+      "start_time_ns": 65801924311,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 122187954,
+      "dns_objective_host": "amis.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 122183323,
+      "dns_result_entries_found": 1
+    },
+    {
+      "duration_ns": 109540024,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "www.95c09b5783.darknet.akostest.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 109535137,
+      "qos_test_uid": 145,
+      "start_time_ns": 65924704449,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "duration_ns": 110784148,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "invalidname.a4f9908b24.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 110778728,
+      "qos_test_uid": 146,
+      "start_time_ns": 65924985067,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "duration_ns": 111381095,
+      "dns_objective_timeout": 5000000000,
+      "dns_objective_host": "www.3616cb05e1.darknet.akostest.net",
+      "dns_objective_resolver": "8.8.8.8",
+      "dns_result_info": "OK",
+      "dns_result_status": "NXDOMAIN",
+      "dns_result_duration": 111376431,
+      "qos_test_uid": 156,
+      "start_time_ns": 65924407282,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "dns_result_entries_found": "0"
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "172.217.20.174",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 144,
+      "start_time_ns": 65924748862,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 111105666,
+      "dns_objective_host": "youtube.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 111100053,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "94.103.67.4",
+          "dns_result_ttl": "3600"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 143,
+      "start_time_ns": 65924565859,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 111457417,
+      "dns_objective_host": "rtvslo.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 111451394,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "193.25.220.192",
+          "dns_result_ttl": "300"
+        },
+        {
+          "dns_result_address": "193.25.220.193",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 148,
+      "start_time_ns": 65925384490,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 110686484,
+      "dns_objective_host": "siol.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 110680878,
+      "dns_result_entries_found": 2
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "176.32.98.166",
+          "dns_result_ttl": "60"
+        },
+        {
+          "dns_result_address": "176.32.103.205",
+          "dns_result_ttl": "60"
+        },
+        {
+          "dns_result_address": "205.251.242.103",
+          "dns_result_ttl": "60"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 147,
+      "start_time_ns": 65925135891,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 110943488,
+      "dns_objective_host": "amazon.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 110938104,
+      "dns_result_entries_found": 3
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "2a00:1450:401b:802:0:0:0:200e",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 149,
+      "start_time_ns": 65925255993,
+      "dns_objective_dns_record": "AAAA",
+      "test_type": "dns",
+      "duration_ns": 110855001,
+      "dns_objective_host": "youtube.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 110849345,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "84.39.218.192",
+          "dns_result_ttl": "3600"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 154,
+      "start_time_ns": 65924877493,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 149697341,
+      "dns_objective_host": "akos-rs.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 149691991,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "172.217.20.174",
+          "dns_result_ttl": "52"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 129,
+      "start_time_ns": 66075078552,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 54846821,
+      "dns_objective_host": "google.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 54840420,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "2a03:2880:f116:83:face:b00c:0:25de",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 126,
+      "start_time_ns": 66075403660,
+      "dns_objective_dns_record": "AAAA",
+      "test_type": "dns",
+      "duration_ns": 90909943,
+      "dns_objective_host": "facebook.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 90901585,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "2a00:1450:401b:802:0:0:0:200e",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 127,
+      "start_time_ns": 66075513973,
+      "dns_objective_dns_record": "AAAA",
+      "test_type": "dns",
+      "duration_ns": 91696894,
+      "dns_objective_host": "google.com",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 91688940,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_priority": "10",
+          "dns_result_address": "mail1.gov.si.",
+          "dns_result_ttl": "300"
+        },
+        {
+          "dns_result_priority": "10",
+          "dns_result_address": "mail2.gov.si.",
+          "dns_result_ttl": "300"
+        },
+        {
+          "dns_result_priority": "10",
+          "dns_result_address": "mail1m.gov.si.",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 151,
+      "start_time_ns": 66075302220,
+      "dns_objective_dns_record": "MX",
+      "test_type": "dns",
+      "duration_ns": 92186125,
+      "dns_objective_host": "gov.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 92179268,
+      "dns_result_entries_found": 3
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "2620:0:862:ed1a:0:0:0:1",
+          "dns_result_ttl": "600"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 152,
+      "start_time_ns": 66075633464,
+      "dns_objective_dns_record": "AAAA",
+      "test_type": "dns",
+      "duration_ns": 123560883,
+      "dns_objective_host": "wikipedia.org",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 123555378,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "84.255.209.72",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 130,
+      "start_time_ns": 66075190619,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 153845180,
+      "dns_objective_host": "t-2.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 153839100,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "193.189.188.36",
+          "dns_result_ttl": "400"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 150,
+      "start_time_ns": 66074903227,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 154874664,
+      "dns_objective_host": "avto.net",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 154869278,
+      "dns_result_entries_found": 1
+    },
+    {
+      "dns_result_entries": [
+        {
+          "dns_result_address": "89.143.247.51",
+          "dns_result_ttl": "300"
+        }
+      ],
+      "dns_objective_timeout": 5000000000,
+      "qos_test_uid": 128,
+      "start_time_ns": 66074985271,
+      "dns_objective_dns_record": "A",
+      "test_type": "dns",
+      "duration_ns": 533719578,
+      "dns_objective_host": "najdi.si",
+      "dns_objective_resolver": "Standard",
+      "dns_result_info": "OK",
+      "dns_result_status": "NOERROR",
+      "dns_result_duration": 533713329,
+      "dns_result_entries_found": 1
+    }
+  ],
+  "client_name": "RMBT",
+  "client_language": "en"
+}

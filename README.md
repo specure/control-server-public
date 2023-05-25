@@ -1,92 +1,138 @@
-# public-portal-be
+## Application Description
+The application was developed using Java 13, Spring Boot 2.5, Maven, Amazon OpenSearch, MySQL 5.34, RabbitMQ, and Redis. The main purpose of the app is to provide the frontend with access to aggregated measurement data and to store user-defined configurations for packages and probes.
 
+## Running the Application
+To run the application, it's necessary to run all required dependent services. Use environment variables to configure the Docker images and Java application.
 
+## Dependent Services
+You can use Docker images locally to set up MySQL databases. You need at least one client database and one admin database.
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+To create a MySQL container, you can use the following command:
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.martes-specure.com/sah/public-portal-be.git
-git branch -M main
-git push -uf origin main
+docker run -d \
+--name mysql \
+-e MYSQL_DATABASE=${MYSQL_DATABASE} \
+-e MYSQL_USER=${MYSQL_USER} \
+-e MYSQL_PASSWORD=${MYSQL_PASSWORD} \
+-e MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD} \
+-p ${MYSQL_PORT}:3306 \
+mysql:5.7.34`
 ```
 
-## Integrate with your tools
+Once the container is up, need to create the admin/tenant databases inside the running Docker container.
 
-- [ ] [Set up project integrations](https://gitlab.martes-specure.com/sah/public-portal-be/-/settings/integrations)
+For RabbitMQ, you can use the following command to create a container:
 
-## Collaborate with your team
+```
+docker run -d \
+--name rabbitmq \
+-p ${RABBIT_MQ_PORT}:5672 \
+-p ${RABBIT_MQ_MANAGEMENT_PORT}:15672 \
+rabbitmq:3-management
+```
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+To set up Redis, use the following command:
 
-## Test and Deploy
+```
+docker run -d --name redis-stack-server -p ${REDIS_PORT}:6379 redis/redis-stack-server:latest
+```
 
-Use the built-in continuous integration in GitLab.
+For OpenSearch use the following command:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+```
+docker run -d \
+--name opensearch \
+-p ${ELASTICSEARCH_PORT}:9200 \
+opensearchproject/opensearch:1.3.0
+```
 
-***
+To set up Logstash, use the following command:
 
-# Editing this README
+```
+docker run -d \
+--name logstash \
+-v /path/to/logstash.conf:/usr/share/logstash/pipeline/logstash.conf:ro \
+-v /path/to/logs:/usr/share/logstash/logs \
+-p ${LOGSTASH_PORT}:5044 \
+docker.elastic.co/logstash/logstash:8.7.0
+```
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+After running the Docker images, configure the application.yaml file.
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+# Microservices Architecture
+The project has a microservice architecture:
 
-## Name
-Choose a self-explaining name for your project.
+#### Backend: 
+https://gitlab.martes-specure.com/sah/backend
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Base service (Backend) is the main service that communicates with the client via REST requests and with other services via RabbitMQ.
+BS stores information in OpenSearch and MySQL. OpenSearch is used for storing measurements and calculating geo-shapes, while information about entities is stored in MySQL.
+Additionally, MySQL is used as a redundant cold storage for measurements.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+BS communicates with the scheduler to create triggers responsible for ping tests, delayed notifications, and company calendars.
+BS should have contact with Logstash for logging.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+Also, BS has contact with Redis. Redis stores caches of measurements and IP addresses.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+#### Dataexport: 
+https://gitlab.martes-specure.com/sah/dataexport
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+DataExport is a service for collecting statistics and exporting open data.
+It communicates with clients via REST and with OpenSearch.
+It contains several jobs for preparing reports and saving them to S3 as a cache-like mechanism.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+#### Scheduler:
+https://gitlab.martes-specure.com/sah/scheduler
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Scheduler is a microservice built around the Quartz library.
+Essentially, this microservice is responsible for creating and executing triggers.
+It communicates exclusively via RabbitMQ with the Notification service and the main service.
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+#### Notification: 
+https://gitlab.martes-specure.com/sah/notification
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+Notification service - the simplest service created for sending messages to the user.
+#### Sah security:
+https://gitlab.martes-specure.com/sah/sah-security
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Library to cover security part of this application
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+You need to have installed KeyCloak. 
 
-## License
-For open source projects, say how it is licensed.
+To compile Dataexport, Backend, and Notification services, you need to have the sah-security artifact compiled first.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Scheduler requires a MySQL database before running, and Notification requires a MySQL database before running. Scheduler is based on the QUARTZ library.
+
+The Backend service contains regular unit tests and integration tests. You can configure whether to run integration tests or not by setting the value
+of the integrationEnabled method in the AbstractIntegrationTest class to true or false.
+
+In order to run integration tests, you need to have a running MySQL database, OpenSearch instance, and Redis instance.
+
+### The MySQL database must have prepared data, such as:
+
+##### Measurement server
+##### Provider
+##### Mobile Model
+##### Package
+##### Probe
+##### Site
+
+### The OpenSearch instance must have indices, such as:
+
+##### Basic_test
+##### Basic_qos_test
+
+Additionally, You need to ensure that the Redis instance is running and configured properly to support the integration tests.
+###
+Run local integration test `mvn test -Dspring.profiles.active=integration-test`
+
+## Swagger
+There was configured a Swagger for each environment:
+Local: http://localhost:8080/swagger-ui.html
+Dev: http://api-dev.nettest.org/swagger-ui.html
+Stage: http://api-stage.nettest.org/swagger-ui.html
+Prod: https://api.nettest.org/swagger-ui.html
+
+## CI
+There was configured automatic deployment for branches: dev, stage and prod.

@@ -1,0 +1,24 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "clientUuid.keyword" : {
+            "value" : "9e1ccb36-59e3-11eb-ae93-0242ac130002",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "openTestUuid.keyword" : {
+            "value" : "6136c67b-c1ad-4c2f-9c86-39328c5dbf35",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

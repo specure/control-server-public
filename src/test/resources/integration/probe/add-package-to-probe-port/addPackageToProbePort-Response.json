@@ -1,0 +1,39 @@
+{
+  "id":2,
+  "name":"sim 1",
+  "type":"MOBILE",
+  "status":null,
+  "package":{
+    "id":1,
+    "advertisedName":"TestPackage",
+    "nativeName":"",
+    "groupId":1,
+    "provider":{
+      "id":1,
+      "asn":null,
+      "mccMnc":null,
+      "alias":null,
+      "country":"Norway",
+      "rawName":"BATELCO",
+      "mobileNetworkOperator":false
+    },
+    "packageDescription":"RESIDENTIAL",
+    "packageType":"Fixed broadband",
+    "technology":{
+      "technology":"ADSL",
+      "name":"ADSL",
+      "type":"FIXED"
+    },
+    "threshold":1000000,
+    "download":51000,
+    "upload":12000,
+    "throttleSpeedDownload":23000,
+    "throttleSpeedUpload":35000,
+    "readyForPort":"FIXED",
+    "visibleOnPublicPortal":false,
+    "assignedToPort":true
+  },
+  "site":null,
+  "probe":"bbm007",
+  "timestamp":null
+}

@@ -1,0 +1,15 @@
+{
+  "statsByProvider":[
+    {
+      "providerName":"BATELCO",
+      "upload":15269.0,
+      "download":184394.0,
+      "latency":193.8404769897461,
+      "measurements":2
+    }
+  ],
+  "averageUpload":15269.0,
+  "averageDownload":184394.0,
+  "averageLatency":193.8404769897461,
+  "allMeasurements":2
+}

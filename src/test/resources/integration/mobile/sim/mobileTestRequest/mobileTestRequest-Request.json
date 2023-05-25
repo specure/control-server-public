@@ -1,0 +1,24 @@
+{
+  "client_version": "0.3",
+  "app_version": "0.0.1",
+  "client_name": "RMBT",
+  "platform": "iOS",
+  "measurement_type_flag": "dedicated",
+  "location": {
+    "country": "Turkey",
+    "long": 30.479250714252338,
+    "lat": 36.416089688201964,
+    "city": "Kemer",
+    "postalCode": "07982",
+    "county": "Antalya"
+  },
+  "timezone": "Europe/Istanbul",
+  "uuid": "${clientUuid}",
+  "client": "RMBT",
+
+  "prefer_server": ${measurementServerId},
+  "language": "en",
+  "telephony_permission_granted": false,
+  "location_permission_granted": true,
+  "uuid_permission_granted": false
+}

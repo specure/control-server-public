@@ -1,0 +1,12 @@
+{
+  "advertisedId": "advertisedId",
+  "name": "name",
+  "address": "address",
+  "coordinates": {
+    "lat": 36.416089688201964,
+    "lng": 30.479250714252338
+  },
+  "measurement": {
+    "active": true
+  }
+}

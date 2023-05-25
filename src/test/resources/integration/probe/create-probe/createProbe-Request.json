@@ -1,0 +1,10 @@
+{
+  "comment": null,
+  "fixedPortNumber": 1,
+  "id": "bbm007",
+  "mobilePortNumber": 1,
+  "operator": null,
+  "probePurpose": "Site",
+  "status": "NEW",
+  "type": "OPEN_NETTEST_BEATBOX_M"
+}

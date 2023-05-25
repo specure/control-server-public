@@ -1,0 +1,74 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "range" : {
+          "timestamp" : {
+            "from" : "2020-05-03",
+            "to" : null,
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "typeOfProbePort.keyword" : {
+            "value" : "MOBILE",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "terms" : {
+          "operator.keyword" : [
+            "Vodafone"
+          ],
+          "boost" : 1.0
+        }
+      },
+      {
+        "geo_shape" : {
+          "geo_shape_location" : {
+            "indexed_shape" : {
+              "id" : "Oslo",
+              "type" : "_doc",
+              "index" : "shape",
+              "path" : "location"
+            },
+            "relation" : "intersects"
+          },
+          "ignore_unmapped" : false,
+          "boost" : 1.0
+        }
+      },
+      {
+        "exists" : {
+          "field" : "ispName.keyword",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "term" : {
+          "implausible.keyword" : {
+            "value" : "true",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "operator.keyword" : {
+            "value" : "unknown",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

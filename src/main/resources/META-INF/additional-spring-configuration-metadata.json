@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "rabbitMq.alivePortTopic",
+      "type": "java.lang.String",
+      "description": "Description for rabbitMq.alivePortTopic."
+    },
+    {
+      "name": "rabbitMq.deadPortTopic",
+      "type": "java.lang.String",
+      "description": "Description for rabbitMq.deadPortTopic."
+    }
+  ]
+}

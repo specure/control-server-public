@@ -1,0 +1,1 @@
+drop table `ip_cache`

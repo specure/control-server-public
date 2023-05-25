@@ -1,0 +1,16 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "openTestUuid.keyword" : {
+            "value" : "540607f2-2a43-4019-af89-fa6d42b9a14f",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

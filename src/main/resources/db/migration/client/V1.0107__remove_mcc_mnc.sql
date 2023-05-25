@@ -1,0 +1,1 @@
+ALTER TABLE `measurement_details`  DROP COLUMN `network_mcc_mnc`

@@ -1,0 +1,83 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "terms" : {
+          "packageId.keyword" : [
+            "2"
+          ],
+          "boost" : 1.0
+        }
+      },
+      {
+        "range" : {
+          "measurementDate" : {
+            "from" : "-999999999-01-01T00:00:00.000Z",
+            "to" : "+999999999-12-31T23:59:59.999999999Z",
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"Norway\"*",
+                "default_field" : "country",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"OFF_NET\"*",
+                "default_field" : "serverType",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

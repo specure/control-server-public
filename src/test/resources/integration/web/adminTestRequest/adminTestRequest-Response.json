@@ -1,0 +1,21 @@
+{
+  "test_uuid": "${openTestUuid}",
+  "result_url": "http://localhost:8080/measurementResult",
+  "result_qos_url": "http://localhost:8080/measurementQosResult",
+  "test_duration": 5,
+  "test_server_name": "EKIP Server (Podgorica)",
+  "test_wait": 0,
+  "test_server_address": "ekip-m01.customers.nettest.org",
+  "test_numthreads": 5,
+  "test_server_port": 443,
+  "test_server_encryption": true,
+  "test_token": "${testToken}",
+  "test_numpings": 10,
+  "test_id": 1,
+  "client_remote_ip": "176.37.47.123",
+  "provider": "BATELCO",
+  "app_version": "0.0.1",
+  "platform": "BROWSER",
+  "error": [
+  ]
+}

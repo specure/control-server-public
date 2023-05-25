@@ -1,0 +1,24 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "tenant.keyword" : {
+            "value" : "sah",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "exists" : {
+          "field" : "adHocCampaign",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

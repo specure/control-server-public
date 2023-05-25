@@ -1,0 +1,60 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "range" : {
+          "timestamp" : {
+            "from" : "2020-05-03",
+            "to" : null,
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "terms" : {
+          "platform.keyword" : [
+            "ANDROID",
+            "IOS"
+          ],
+          "boost" : 1.0
+        }
+      },
+      {
+        "exists" : {
+          "field" : "ispName.keyword",
+          "boost" : 1.0
+        }
+      },
+      {
+        "terms" : {
+          "municipality.keyword" : [
+            "Oslo"
+          ],
+          "boost" : 1.0
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "term" : {
+          "implausible.keyword" : {
+            "value" : "true",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "ispRawId.keyword" : {
+            "value" : "unknown",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "typeOfProbePort.keyword" : {
+            "value" : "FIXED",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "exists" : {
+          "field" : "probePort",
+          "boost" : 1.0
+        }
+      },
+      {
+        "exists" : {
+          "field" : "probeId",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "exists" : {
+          "field" : "adHocCampaign",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

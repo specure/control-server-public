@@ -1,0 +1,17 @@
+{
+  "client_remote_ip": "127.0.0.1",
+  "test_uuid": "822d8eb9-876c-478f-9612-a7e600dd681f",
+  "result_url": "http://localhost:8080/nettest/V4/result",
+  "result_qos_url": "http://localhost:8080/nettest/V4/resultQoS",
+  "test_duration": "5",
+  "test_server_name": "EKIP Server (Podgorica)",
+  "test_wait": 0,
+  "test_server_address": "ekip-m01.customers.nettest.org",
+  "test_numthreads": "20",
+  "error": [],
+  "test_server_port": 5232,
+  "test_server_encryption": true,
+  "test_token": "822d8eb9-876c-478f-9612-a7e600dd681f_1590067232_CFuy8KOMlUDJMQrS3atQCErUGNs=",
+  "test_numpings": "10",
+  "test_id": 12615962
+}

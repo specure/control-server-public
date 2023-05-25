@@ -1,0 +1,160 @@
+{
+  "test_uuid": "d52b2226-7202-4b03-a367-9a5b644cfc25",
+  "speed_upload": 15538,
+  "speed_download": 188788,
+  "ping": 197.68095,
+  "voip_result_jitter_millis": 6.6,
+  "voip_result_packet_loss_percents": 0.0,
+  "network_type": "4G",
+  "qos": null,
+  "qosTestResultCounters": [
+  ],
+  "measurement_date": "2022-05-08T11:08:25Z",
+  "device": "iPhone 12",
+  "loop_mode_uuid": null,
+  "userExperienceMetrics": [
+    {
+      "quality": "EXCELLENT",
+      "category": "EMAIL_MESSAGING",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 3.0,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "Not applicable",
+          "value": null,
+          "unit": null
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 0.5,
+          "unit": "Mbps"
+        }
+      ]
+    }, {
+      "quality": "POOR",
+      "category": "ONLINE_GAMING",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 1.0,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "<",
+          "value": 200.0,
+          "unit": "ms"
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 0.5,
+          "unit": "Mbps"
+        }
+      ]
+    }, {
+      "quality": "EXCELLENT",
+      "category": "SOCIAL_MEDIA",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 10.0,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "Not applicable",
+          "value": null,
+          "unit": null
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 5.0,
+          "unit": "Mbps"
+        }
+      ]
+    }, {
+      "quality": "POOR",
+      "category": "VIDEO",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 1.0,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "<",
+          "value": 200.0,
+          "unit": "ms"
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 0.05,
+          "unit": "Mbps"
+        }
+      ]
+    }, {
+      "quality": "POOR",
+      "category": "VOIP",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 0.2,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "<",
+          "value": 200.0,
+          "unit": "ms"
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 0.2,
+          "unit": "Mbps"
+        }
+      ]
+    }, {
+      "quality": "POOR",
+      "category": "WEB_BROWSING",
+      "rating": [
+        {
+          "metric": "Download",
+          "condition": ">=",
+          "value": 1.0,
+          "unit": "Mbps"
+        }, {
+          "metric": "Latency",
+          "condition": "<",
+          "value": 200.0,
+          "unit": "ms"
+        }, {
+          "metric": "Upload",
+          "condition": ">=",
+          "value": 0.05,
+          "unit": "Mbps"
+        }
+      ]
+    }
+  ],
+  "radioSignals": [
+  ],
+  "networkName": "LTE",
+  "measurementServerName": "EKIP Server (Podgorica)",
+  "location": {
+    "lat": null,
+    "long": null,
+    "city": null,
+    "country": "Turkey",
+    "county": null,
+    "postalCode": null
+  },
+  "measurementServerCity": null,
+  "operator": "BATELCO",
+  "appVersion": "0.0.1",
+  "platform": "IOS"
+}

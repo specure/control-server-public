@@ -1,0 +1,8 @@
+{
+  "term" : {
+    "adHocCampaign.keyword" : {
+      "value" : "DefaultAdHocCampaign",
+      "boost" : 1.0
+    }
+  }
+}

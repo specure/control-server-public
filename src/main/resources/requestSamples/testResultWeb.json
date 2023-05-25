@@ -1,0 +1,506 @@
+{
+  "client_language": "de",
+  "client_name": "RMBTws",
+  "client_uuid": "749c5f54-79d0-4583-98f9-4f34b45a1e42",
+  "client_version": "1.2.0",
+  "client_software_version": "0.8.0",
+  "geoLocations": [
+    {
+      "geo_lat": 50.446335999999995,
+      "geo_long": 30.474239999999998,
+      "accuracy": 1299,
+      "altitude": null,
+      "bearing": null,
+      "speed": null,
+      "tstamp": 1592995299912,
+      "provider": "Browser"
+    },
+    {
+      "geo_lat": 50.446335999999995,
+      "geo_long": 30.474239999999998,
+      "accuracy": 1299,
+      "altitude": null,
+      "bearing": null,
+      "speed": null,
+      "tstamp": 1592995301912,
+      "provider": "Browser"
+    }
+  ],
+  "model": "Chrome",
+  "network_type": 98,
+  "platform": "RMBTws",
+  "product": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36",
+  "pings": [
+    {
+      "value": 339475000,
+      "value_server": 279172517,
+      "time_ns": 25317465000
+    },
+    {
+      "value": 38490000,
+      "value_server": 37237770,
+      "time_ns": 25818355000
+    },
+    {
+      "value": 35760000,
+      "value_server": 39385950,
+      "time_ns": 25925530000
+    },
+    {
+      "value": 49090000,
+      "value_server": 37515942,
+      "time_ns": 26166880000
+    },
+    {
+      "value": 115260000,
+      "value_server": 469629592,
+      "time_ns": 26308130000
+    },
+    {
+      "value": 48790000,
+      "value_server": 32430975,
+      "time_ns": 26865780000
+    },
+    {
+      "value": 31950000,
+      "value_server": 32374925,
+      "time_ns": 26983055000
+    },
+    {
+      "value": 111225000,
+      "value_server": 48650772,
+      "time_ns": 27302455000
+    },
+    {
+      "value": 37790000,
+      "value_server": 38689304,
+      "time_ns": 27819440000
+    },
+    {
+      "value": 33055000,
+      "value_server": 32598700,
+      "time_ns": 28006925000
+    }
+  ],
+  "test_bytes_download": 311296,
+  "test_bytes_upload": 622592,
+  "test_nsec_download": 5412795000,
+  "test_nsec_upload": 5306372594,
+  "test_num_threads": 1,
+  "num_threads_ul": 1,
+  "test_ping_shortest": 32374925,
+  "test_speed_download": 460.08910368857494,
+  "test_speed_upload": 938.6329195261934,
+  "test_token": "cbfa44fc-7c07-417a-b299-6088b9672986_1592995298_mkWPANQUHQXQ3sKvGqb4ZKhwc04=",
+  "test_uuid": "cbfa44fc-7c07-417a-b299-6088b9672986",
+  "time": 1592995299912,
+  "timezone": "Europe/Vienna",
+  "type": "DESKTOP",
+  "version_code": "1",
+  "speed_detail": [
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 73810000,
+      "bytes": 4096
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 336900000,
+      "bytes": 8192
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 405160000,
+      "bytes": 12288
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 670890000,
+      "bytes": 16384
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1082800000,
+      "bytes": 20480
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1503790000,
+      "bytes": 24576
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1641665000,
+      "bytes": 28672
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1898145000,
+      "bytes": 32768
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1931110000,
+      "bytes": 36864
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1967405000,
+      "bytes": 40960
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2065420000,
+      "bytes": 45056
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2107340000,
+      "bytes": 49152
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2142645000,
+      "bytes": 53248
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2395015000,
+      "bytes": 61440
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2431420000,
+      "bytes": 65536
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2467920000,
+      "bytes": 69632
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2505425000,
+      "bytes": 77824
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2560385000,
+      "bytes": 86016
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2561020000,
+      "bytes": 90112
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2607030000,
+      "bytes": 98304
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3027885000,
+      "bytes": 106496
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3479970000,
+      "bytes": 122880
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3513875000,
+      "bytes": 131072
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3546755000,
+      "bytes": 139264
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3586855000,
+      "bytes": 151552
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3622525000,
+      "bytes": 159744
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3646040000,
+      "bytes": 167936
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3715920000,
+      "bytes": 176128
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3741735000,
+      "bytes": 184320
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3813415000,
+      "bytes": 196608
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4052090000,
+      "bytes": 204800
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4102825000,
+      "bytes": 212992
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4235045000,
+      "bytes": 217088
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4266395000,
+      "bytes": 229376
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4536220000,
+      "bytes": 241664
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4777350000,
+      "bytes": 258048
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 5144355000,
+      "bytes": 262144
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 5196430000,
+      "bytes": 282624
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 5412795000,
+      "bytes": 311296
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 437833817,
+      "bytes": 4096
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 536124542,
+      "bytes": 16384
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 577663871,
+      "bytes": 36864
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 642400016,
+      "bytes": 45056
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 924335761,
+      "bytes": 73728
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 993964220,
+      "bytes": 77824
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1071613411,
+      "bytes": 122880
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1163771152,
+      "bytes": 163840
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1712002316,
+      "bytes": 196608
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1927544185,
+      "bytes": 212992
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2009022142,
+      "bytes": 315392
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2444779212,
+      "bytes": 319488
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2628865534,
+      "bytes": 327680
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2701362533,
+      "bytes": 339968
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2743517003,
+      "bytes": 356352
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3016408300,
+      "bytes": 372736
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3091058375,
+      "bytes": 389120
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3138237751,
+      "bytes": 417792
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3187866993,
+      "bytes": 438272
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3252617773,
+      "bytes": 458752
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3634206447,
+      "bytes": 462848
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4222518191,
+      "bytes": 491520
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4295426142,
+      "bytes": 507904
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4406689296,
+      "bytes": 524288
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4608942285,
+      "bytes": 544768
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4796513235,
+      "bytes": 573440
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 5162081170,
+      "bytes": 606208
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 5306372594,
+      "bytes": 622592
+    }
+  ],
+  "user_server_selection": 0,
+  "loop_uuid": "cbfa44fc-7c07-417a-b299-6088b9672986"
+}

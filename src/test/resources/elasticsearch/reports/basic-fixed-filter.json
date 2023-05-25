@@ -1,0 +1,299 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "range" : {
+          "measurementDate" : {
+            "from" : "2020-03-20T00:00:00.000Z",
+            "to" : "2020-03-24T23:59:00.000Z",
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"DEFAULT_PROBE\"*",
+                "default_field" : "probeId",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"DEFAULT_SITE_NAME\"*",
+                "default_field" : "siteAdvertisedId",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"BATELCO\"*",
+                "default_field" : "operator",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"EKIP Server (Podgorica)\"*",
+                "default_field" : "measurementServerName",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"DEFAULT_PORT\"*",
+                "default_field" : "probePort",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"Fixed broadband\"*",
+                "default_field" : "packageType",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"ON_NET\"*",
+                "default_field" : "serverType",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "term" : {
+          "typeOfProbePort.keyword" : {
+            "value" : "FIXED",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "exists" : {
+          "field" : "probePort",
+          "boost" : 1.0
+        }
+      },
+      {
+        "exists" : {
+          "field" : "probeId",
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"1\"*",
+                "default_field" : "packageNameStamp",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      },
+      {
+        "bool" : {
+          "should" : [
+            {
+              "query_string" : {
+                "query" : "*\"DEFAULT_COUNTRY\"*",
+                "default_field" : "country",
+                "fields" : [ ],
+                "type" : "best_fields",
+                "default_operator" : "and",
+                "max_determinized_states" : 10000,
+                "allow_leading_wildcard" : true,
+                "enable_position_increments" : true,
+                "fuzziness" : "AUTO",
+                "fuzzy_prefix_length" : 0,
+                "fuzzy_max_expansions" : 50,
+                "phrase_slop" : 0,
+                "escape" : false,
+                "auto_generate_synonyms_phrase_query" : true,
+                "fuzzy_transpositions" : true,
+                "boost" : 1.0
+              }
+            }
+          ],
+          "adjust_pure_negative" : true,
+          "boost" : 1.0
+        }
+      }
+    ],
+    "must_not" : [
+      {
+        "exists" : {
+          "field" : "adHocCampaign",
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

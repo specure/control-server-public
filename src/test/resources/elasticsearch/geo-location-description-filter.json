@@ -1,0 +1,16 @@
+{
+  "geo_shape" : {
+    "location" : {
+      "shape" : {
+        "type" : "Point",
+        "coordinates" : [
+          321.321,
+          123.123
+        ]
+      },
+      "relation" : "intersects"
+    },
+    "ignore_unmapped" : false,
+    "boost" : 1.0
+  }
+}

@@ -1,0 +1,12 @@
+alter table probe_history modify probe_id varchar(32) not null;
+alter table probe_history modify comment varchar(256) null;
+alter table `site` modify address varchar(256) charset utf8 not null;
+alter table `probe` modify id varchar(32) not null;
+alter table `probe` modify comment varchar(256) null;
+alter table measurement_server modify name varchar(64) not null;
+alter table measurement_server modify web_address varchar(256) not null;
+alter table measurement_server modify secret_key varchar(256) null;
+alter table measurement_server_description modify email varchar(256) null;
+alter table measurement_server_description modify ip_address varchar(256) null;
+alter table measurement_server_description modify comment varchar(256) null;
+alter table package modify threshold bigint(20) not null;

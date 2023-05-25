@@ -1,0 +1,8 @@
+{
+  "term" : {
+    "siteId" : {
+      "value" : 1,
+      "boost" : 1.0
+    }
+  }
+}

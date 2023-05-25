@@ -1,0 +1,22 @@
+services:
+  admin-mysql:
+    image: biarms/mysql:5.7.33-linux-arm64v8-beta-circleci
+    environment:
+      - MYSQL_DATABASE=admin
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=root
+  client-mysql:
+    image: biarms/mysql:5.7.33-linux-arm64v8-beta-circleci
+    environment:
+      - MYSQL_DATABASE=nt
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=root
+  elastisearch:
+    image: arm64v8/elasticsearch:7.8.0
+    environment:
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+      - "discovery.type=single-node"
+  redis:
+    image: redis/redis-stack-server:latest

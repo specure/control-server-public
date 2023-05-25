@@ -1,0 +1,691 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: sah-backend
+  profiles:
+    include:
+      - national
+  datasource:
+    poolSize: 20
+    minIdle: 1
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bh_dev
+    username: root
+    password: root
+    tomcat:
+      test-while-idle: true
+      test-on-borrow: true
+      validation-query: SELECT 1
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 100
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  flyway:
+    enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+tenant-country:
+  mapping:
+    bh:
+      - Bahrain
+    "no":
+      - Norway
+    al:
+      - Albania
+    sl:
+      - Slovenia
+    ru_sk:
+      - Slovakia
+    ratel_rs:
+      - Serbia
+    ekip_me:
+      - Montenegro
+
+logging:
+  level:
+    org.apache: INFO
+rabbitMq:
+    alivePortTopic: alive-port-topic-scheduler
+    deadPortTopic: dead-port-topic-second-ver-scheduler
+    changeAdHocCampaignTopic: ad-hoc-campaign-change-topic-scheduler
+    startStopAdHocCampaignTopic: ad-hoc-campaign-start-stop-topic-scheduler
+    updateRawProviderMappingTopic: update-raw-provider-mapping-queue
+
+elastic-index:
+  basicTenantIndexes:
+    "no": basic_test_nkom
+    bh: my_test
+    at: basic_test_bh
+    al: basic_test_alb
+    nt: basic_test_nt
+    ratel_rs: basic_test_nt
+  basicQosTenantIndexes:
+    "no": basic_qos_test_nkom
+    bh: basic_qos_test_bh
+    at: basic_qos_test_aus
+    al: basic_qos_test_alb
+    nt: basic_qos_test_nt
+  netNeutralityIndexes:
+    nt: net_neutrality_ont
+    "no": net_neutrality_no
+    ratel_rs: net_neutrality_ratel_rs
+  elastic-credential:
+    "no":
+      host: localhost:9200
+    bh:
+      host: localhost:9200
+    at:
+      host: localhost:9200
+    al:
+      host: localhost:9200
+    nt:
+      host: localhost:9200
+    ratel_rs:
+      host: localhost:9200
+  keepAlive: keep_alive
+  scrollTimeInMillis: 10000
+
+client-tenant:
+  clientTenantMapping:
+    admin:
+      url: jdbc:mysql://localhost:3306/admin
+      username: root
+      password: root
+    bh:
+      url: jdbc:mysql://localhost:3306/sah
+      username: root
+      password: root
+#    "no":
+#      url: jdbc:mysql://localhost:3306/nkom
+#      username: root
+#      password: root
+#    at:
+#      url: jdbc:mysql://localhost:3306/austria
+#      username: root
+#      password: root
+    ratel_rs:
+      url: jdbc:mysql://localhost:3306/ratel_rs
+      username: root
+      password: root
+    nt:
+      url: jdbc:mysql://localhost:3306/nt
+      username: root
+      password: root
+maxmind:
+  geoip:
+    accountId: ${MAX_MIND_ACCOUNT_ID}
+    licenseKey: ${MAX_MIND_LICENSE_KEY}
+
+country:
+  norway: "no"
+
+measurement-server:
+  host: http://localhost:8080
+  slotWindow: 5
+  defaultProviderId: 6
+
+auth0:
+  issuer: ${AUTH0_ISSUER}
+  apiAudience: ${AUTH0_API_AUDIENCE}
+
+sentry:
+  dsn: https://testtest.ingest.sentry.io/5405580
+  enabled: true
+  stacktrace-app-packages:
+    - com.specure.sah
+app:
+  rmbt:
+    accuracyDetailLimit: 10000
+    accuracyButtonLimit: 2000
+    duration: 7
+    pings: 10
+    threads: 5
+    version: 0.1.0 || 0.3.0 || ^1.0.0
+    language:
+      supportedLanguages:
+        - de
+        - en
+        - hr
+        - sv
+        - pl
+        - es
+        - is
+        - fr
+        - nb
+        - cs
+      defaultLanguage: en
+    clientNames:
+      - RMBT
+      - RMBTjs
+      - Open-RMBT
+      - RMBTws
+      - HW-PROBE
+      - RTR-Netztest
+
+application-version:
+  bucket-path: nettest-version
+  file-name: application-version.json
+
+aws:
+  accessKey: ${AWS_ACCESS_KEY}
+  secretKey: ${AWS_SECRET_KEY}
+  region: eu-central-1
+
+keycloak:
+  realm: specure-dev
+  resource: nettest
+  auth-server-url: https://keycloak.specure.net/
+  public-client: true
+  principal-attribute: preferred_username
+
+redis:
+  host: localhost
+  port: 6379
+---
+spring:
+  profiles: dev
+  elasticsearch:
+    rest:
+      uris: http://${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+  datasource:
+    url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/%s?useUnicode=true&characterEncoding=utf8
+    username: ${MYSQL_RDS_USER}
+    password: ${MYSQL_RDS_PASSWORD}
+    poolSize: 5
+    minIdle: 1
+  rabbitmq:
+    host: 10.30.0.211
+    port: 5672
+client-tenant:
+  clientTenantMapping:
+    admin:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/admin_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    bh:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/bh_dev?useUnicode=true&characterEncoding=utf8
+      username:  ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    "no":
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/no_dev?useUnicode=true&characterEncoding=utf8
+      username:  ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    at:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/at_dev?useUnicode=true&characterEncoding=utf8
+      username:  ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    al:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/al_dev?useUnicode=true&characterEncoding=utf8
+      username:  ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    nt:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/nt_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    sl:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/sl_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    akos_si:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/sl_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ru_sk:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/sk_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ratel_rs:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/rs_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ekip_me:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/ekip_me_dev?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+measurement-server:
+  host: ${CONTROL_SERVER_HOST}
+
+auth0:
+  issuer: ${AUTH0_ISSUER}
+  apiAudience: ${AUTH0_API_AUDIENCE}
+
+elastic-index:
+  basicTenantIndexes:
+    "no": basic_test_nkom_no
+    bh: basic_test_tra_bh
+    at: basic_test_rtr_at
+    al: basic_test_akep_al
+    nt: basic_test_ont
+    sl: basic_test_akos_si
+    akos_si: basic_test_akos_si
+    ru_sk: basic_test_ru_sk
+    ratel_rs: basic_test_ratel_rs
+    ekip_me: basic_test_ekip_me
+  basicQosTenantIndexes:
+    "no": basic_qos_test_nkom_no
+    bh: basic_qos_test_tra_bh
+    at: basic_qos_test_rtr_at
+    al: basic_qos_test_akep_al
+    nt: basic_qos_test_ont
+    sl: basic_qos_test_akos_si
+    akos_si: basic_qos_test_akos_si
+    ru_sk: basic_qos_test_ru_sk
+    ratel_rs: basic_qos_test_ratel_rs
+    ekip_me: basic_qos_test_ekip_me
+  netNeutralityIndexes:
+    nt: net_neutrality_ont
+    "no": net_neutrality_no
+    ratel_rs: net_neutrality_ratel_rs
+    ekip_me: net_neutrality_ekip_me
+  elastic-credential:
+    "no":
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    bh:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    at:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    al:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    nt:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    sl:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    akos_si:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ru_sk:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ratel_rs:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ekip_me:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+  keepAlive: keep_alive_dev
+  scrollTimeInMillis: 10000
+
+rabbitMq:
+  alivePortTopic: alive-port-topic-scheduler-dev
+  deadPortTopic: dead-port-topic-second-ver-scheduler-dev
+  changeAdHocCampaignTopic: ad-hoc-campaign-change-topic-scheduler-dev
+  startStopAdHocCampaignTopic: ad-hoc-campaign-start-stop-topic-scheduler-dev
+  updateRawProviderMappingTopic: update-raw-provider-mapping-queue-dev
+
+keycloak:
+  realm: specure-dev
+  resource: nettest
+  auth-server-url: https://keycloak.specure.net/
+  public-client: true
+  principal-attribute: preferred_username
+
+redis:
+  host: 10.30.0.211
+  port: 6379
+---
+spring:
+  profiles: stage
+  elasticsearch:
+    rest:
+      uris: http://${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+  datasource:
+    url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/%s?useUnicode=true&characterEncoding=utf8
+    username: ${MYSQL_RDS_USER}
+    password: ${MYSQL_RDS_PASSWORD}
+    poolSize: 5
+    minIdle: 1
+  rabbitmq:
+    host: 10.30.0.211
+    port: 5672
+client-tenant:
+  clientTenantMapping:
+    admin:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/admin_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    bh:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/bh_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    "no":
+      url: jdbc:mysql://${MYSQL_NKOM_URI}:${MYSQL_NKOM_PORT}/no_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_NKOM_USER}
+      password: ${MYSQL_NKOM_PASSWORD}
+    at:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/at_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    al:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/al_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    nt:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/nt_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    akos_si:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/si_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ru_sk:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/sk_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ratel_rs:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/rs_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ekip_me:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/ekip_me_beta?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+measurement-server:
+  host: ${CONTROL_SERVER_HOST}
+
+auth0:
+  issuer: ${AUTH0_ISSUER}
+  apiAudience: ${AUTH0_API_AUDIENCE}
+
+elastic-index:
+  basicTenantIndexes:
+    "no": basic_test_nkom_no
+    bh: basic_test_tra_bh
+    at: basic_test_rtr_at
+    al: basic_test_akep_al
+    nt: basic_test_ont
+    akos_si: basic_test_akos_si
+    ru_sk: basic_test_ru_sk
+    ratel_rs: basic_test_ratel_rs
+    ekip_me: basic_test_ekip_me
+  basicQosTenantIndexes:
+    "no": basic_qos_test_nkom_no
+    bh: basic_qos_test_tra_bh
+    at: basic_qos_test_rtr_at
+    al: basic_qos_test_akep_al
+    nt: basic_qos_test_ont
+    akos_si: basic_qos_test_akos_si
+    ru_sk: basic_qos_test_ru_sk
+    ratel_rs: basic_qos_test_ratel_rs
+    ekip_me: basic_qos_test_ekip_me
+  netNeutralityIndexes:
+    nt: net_neutrality_ont
+    "no": net_neutrality_no
+    ratel_rs: net_neutrality_ratel_rs
+    ekip_me: net_neutrality_ekip_me
+  elastic-credential:
+    "no":
+      host: ${ELASTICSEARCH_NKOM}
+    bh:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    at:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    al:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    nt:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    akos_si:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ru_sk:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ratel_rs:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ekip_me:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+  keepAlive: keep_alive_beta
+  scrollTimeInMillis: 10000
+
+rabbitMq:
+  alivePortTopic: alive-port-topic-scheduler-staging
+  deadPortTopic: dead-port-topic-second-ver-scheduler-staging
+  changeAdHocCampaignTopic: ad-hoc-campaign-change-topic-scheduler-staging
+  startStopAdHocCampaignTopic: ad-hoc-campaign-start-stop-topic-scheduler-staging
+  updateRawProviderMappingTopic: update-raw-provider-mapping-queue-staging
+
+keycloak:
+  realm: specure-beta
+  resource: nettest
+  auth-server-url: https://keycloak.specure.net/
+  public-client: true
+  principal-attribute: preferred_username
+
+redis:
+  host: 10.30.0.211
+  port: 6379
+---
+spring:
+  profiles: prod
+  elasticsearch:
+    rest:
+      uris: http://${ELASTICSEARCH_NKOM}
+  datasource:
+    url: jdbc:mysql://${MYSQL_NKOM_URI}:${MYSQL_NKOM_PORT}/%s?useUnicode=true&characterEncoding=utf8
+    username: ${MYSQL_NKOM_USER}
+    password: ${MYSQL_NKOM_PASSWORD}
+    poolSize: 20
+    minIdle: 10
+  rabbitmq:
+    host: 10.30.0.211
+    port: 5672
+
+measurement-server:
+  host: ${CONTROL_SERVER_HOST}
+
+auth0:
+  issuer: ${AUTH0_ISSUER}
+  apiAudience: ${AUTH0_API_AUDIENCE}
+
+client-tenant:
+  clientTenantMapping:
+    admin:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/admin_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    bh:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/bh_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    "no":
+      url: jdbc:mysql://${MYSQL_NKOM_URI}:${MYSQL_NKOM_PORT}/no_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_NKOM_USER}
+      password: ${MYSQL_NKOM_PASSWORD}
+    at:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/at_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    al:
+      url: jdbc:mysql://${MYSQL_ALB_URI}:${MYSQL_ALB_PORT}/al_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_ALB_USER}
+      password: ${MYSQL_ALB_PASSWORD}
+    nt:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/nt_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ru_sk:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/sk_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ratel_rs:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/rs_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    akos_si:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/si_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+    ekip_me:
+      url: jdbc:mysql://${MYSQL_RDS_URI}:${MYSQL_RDS_PORT}/ekip_me_prod?useUnicode=true&characterEncoding=utf8
+      username: ${MYSQL_RDS_USER}
+      password: ${MYSQL_RDS_PASSWORD}
+
+elastic-index:
+  basicTenantIndexes:
+    "no": basic_test_nkom_prod
+    bh: basic_test_tra_bh
+    at: basic_test_aus
+    al: basic_test_alb
+    nt: basic_test_ont
+    ru_sk: basic_test_ru_sk
+    akos_si: basic_test_akos_si
+    ratel_rs: basic_test_ratel_rs
+    ekip_me: basic_test_ekip_me
+  basicQosTenantIndexes:
+    "no": basic_qos_test_nkom
+    bh: basic_qos_test_tra_bh
+    at: basic_qos_test_aus
+    al: basic_qos_test_alb
+    nt: basic_qos_test_ont
+    akos_si: basic_qos_test_akos_si
+    ru_sk: basic_qos_test_ru_sk
+    ratel_rs: basic_qos_test_ratel_rs
+    ekip_me: basic_qos_test_ekip_me
+  elastic-credential:
+    "no":
+      host: ${ELASTICSEARCH_NKOM}
+    #      username: username
+    #      password: password
+    bh:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    at:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    al:
+      host: ${ELASTICSEARCH_ALB}
+    nt:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ru_sk:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ratel_rs:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    akos_si:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+    ekip_me:
+      host: ${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}
+      username: ${ELASTICSEARCH_USERNAME}
+      password: ${ELASTICSEARCH_PASSWORD}
+      isSSL: false
+      isTLS: true
+  keepAlive: keep_alive
+  scrollTimeInMillis: 10000
+
+rabbitMq:
+  alivePortTopic: alive-port-topic-scheduler-production
+  deadPortTopic: dead-port-topic-second-ver-scheduler-production
+  changeAdHocCampaignTopic: ad-hoc-campaign-change-topic-scheduler-production
+  startStopAdHocCampaignTopic: ad-hoc-campaign-start-stop-topic-scheduler-production
+  updateRawProviderMappingTopic: update-raw-provider-mapping-queue-production
+
+sentry:
+  dsn: ${SENTRY_DNS}
+  enabled: true
+  stacktrace-app-packages:
+    - com.specure.sah
+
+keycloak:
+  realm: specure
+  resource: nettest
+  auth-server-url: https://keycloak.specure.net/
+  public-client: true
+  principal-attribute: preferred_username
+
+redis:
+  host: 10.30.0.211
+  port: 6379

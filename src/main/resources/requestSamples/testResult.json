@@ -1,0 +1,585 @@
+{
+  "client_uuid": "540607f2-2a43-4019-af89-fa6d42b9a14f",
+  "client_name": "RMBT",
+  "client_version": "0.3",
+  "client_language": "en",
+  "time": 1589301593506,
+  "test_token": "f934d7b3-ce36-44c0-9a80-1d3fecb674a0_1589301534_8ar2pr6yrs2pdeH3c0Xjp357rRw=",
+  "test_port_remote": 5232,
+  "test_bytes_download": 3014656,
+  "test_bytes_upload": 1040384,
+  "test_total_bytes_download": 3279204,
+  "test_total_bytes_upload": 1417643,
+  "test_encryption": "TLSv1.2 (TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)",
+  "test_ip_local": "192.168.1.228",
+  "test_ip_server": "89.188.39.145",
+  "test_nsec_download": 5003543224,
+  "test_nsec_upload": 5314435780,
+  "test_num_threads": 1,
+  "test_speed_download": 4820,
+  "test_speed_upload": 1566,
+  "test_ping_shortest": 29634895,
+  "test_if_bytes_download": 0,
+  "test_if_bytes_upload": 0,
+  "testdl_if_bytes_download": 0,
+  "testdl_if_bytes_upload": 0,
+  "testul_if_bytes_download": 0,
+  "testul_if_bytes_upload": 0,
+  "jpl": {
+    "voip_result_in_num_packets": 100,
+    "voip_result_in_long_seq": 100,
+    "voip_result_in_short_seq": 100,
+    "voip_result_in_mean_jitter": 2962248,
+    "voip_result_in_max_jitter": 5907750,
+    "voip_result_in_sequence_error": 0,
+    "voip_result_in_skew": -305183605,
+    "voip_result_in_max_delta": 19916607,
+    "voip_result_out_skew": -347093010,
+    "voip_result_out_max_delta": 47011040,
+    "voip_result_out_sequence_error": 0,
+    "voip_result_out_long_seq": 100,
+    "voip_result_out_short_seq": 100,
+    "voip_result_out_mean_jitter": 8321070,
+    "voip_result_out_max_jitter": 13491608,
+    "voip_result_out_num_packets": 100,
+    "voip_objective_bits_per_sample": 8,
+    "voip_objective_in_port": 7061,
+    "voip_objective_out_port": 7060,
+    "voip_objective_delay": 20000000,
+    "voip_objective_timeout": 3000000000,
+    "voip_objective_payload": 8,
+    "voip_objective_call_duration": 2000000000,
+    "voip_objective_sample_rate": 8000,
+    "duration_ns": 2707004537,
+    "start_time_ns": 54051662907,
+    "voip_result_status": "OK",
+    "classification_packet_loss": -1,
+    "classification_jitter": -1
+  },
+  "pings": [
+    {
+      "value": 153053716,
+      "value_server": 51241520,
+      "time_ns": 37920068748
+    },
+    {
+      "value": 31840593,
+      "value_server": 36471926,
+      "time_ns": 38173081708
+    },
+    {
+      "value": 31468386,
+      "value_server": 36304502,
+      "time_ns": 38274148094
+    },
+    {
+      "value": 33792786,
+      "value_server": 33933785,
+      "time_ns": 38408425734
+    },
+    {
+      "value": 29634895,
+      "value_server": 30067734,
+      "time_ns": 38514299276
+    },
+    {
+      "value": 29640236,
+      "value_server": 29740470,
+      "time_ns": 38618208808
+    },
+    {
+      "value": 37511708,
+      "value_server": 38241174,
+      "time_ns": 38707473308
+    },
+    {
+      "value": 31570466,
+      "value_server": 54148682,
+      "time_ns": 38809134335
+    },
+    {
+      "value": 31340135,
+      "value_server": 35483767,
+      "time_ns": 38926360137
+    },
+    {
+      "value": 37955550,
+      "value_server": 33076843,
+      "time_ns": 39026883991
+    }
+  ],
+  "speed_detail": [
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 34661988,
+      "bytes": 4096
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 145964724,
+      "bytes": 40960
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 246810801,
+      "bytes": 86016
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 348692860,
+      "bytes": 126976
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 462312518,
+      "bytes": 163840
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 569708084,
+      "bytes": 204800
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 718826946,
+      "bytes": 266240
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 843630101,
+      "bytes": 339968
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 964279002,
+      "bytes": 393216
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1103796899,
+      "bytes": 446464
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1206424217,
+      "bytes": 532480
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1329656951,
+      "bytes": 573440
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1434317298,
+      "bytes": 610304
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1547638566,
+      "bytes": 663552
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1647830196,
+      "bytes": 704512
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1782919333,
+      "bytes": 782336
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 1900584011,
+      "bytes": 839680
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2037181875,
+      "bytes": 937984
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2153581928,
+      "bytes": 1011712
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2280565329,
+      "bytes": 1118208
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2380573829,
+      "bytes": 1191936
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2485302446,
+      "bytes": 1232896
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2609743695,
+      "bytes": 1310720
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2711493011,
+      "bytes": 1400832
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2823712313,
+      "bytes": 1462272
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2925401753,
+      "bytes": 1519616
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3045373481,
+      "bytes": 1617920
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3151998412,
+      "bytes": 1691648
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3257184398,
+      "bytes": 1736704
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3394567413,
+      "bytes": 1839104
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3506065100,
+      "bytes": 1945600
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3607469597,
+      "bytes": 2056192
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3717483937,
+      "bytes": 2117632
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 3878534258,
+      "bytes": 2228224
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4002484633,
+      "bytes": 2322432
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4147981303,
+      "bytes": 2408448
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4263024067,
+      "bytes": 2457600
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4371344451,
+      "bytes": 2510848
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4482067116,
+      "bytes": 2580480
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4587777450,
+      "bytes": 2637824
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4693551635,
+      "bytes": 2703360
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4795331105,
+      "bytes": 2809856
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 4899954832,
+      "bytes": 2908160
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 5003538996,
+      "bytes": 3014656
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 5003543224,
+      "bytes": 3014656
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 56227742,
+      "bytes": 4096
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 169076751,
+      "bytes": 40960
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 354384529,
+      "bytes": 73728
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 502797129,
+      "bytes": 90112
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 614340874,
+      "bytes": 126976
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 762202632,
+      "bytes": 151552
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 992222244,
+      "bytes": 180224
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1171508585,
+      "bytes": 237568
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1306060977,
+      "bytes": 278528
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1823874011,
+      "bytes": 282624
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1942750203,
+      "bytes": 327680
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2173081435,
+      "bytes": 339968
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2297614764,
+      "bytes": 372736
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2429222040,
+      "bytes": 389120
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2559287985,
+      "bytes": 421888
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2666681297,
+      "bytes": 458752
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 2977951324,
+      "bytes": 471040
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3112355725,
+      "bytes": 503808
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3233922871,
+      "bytes": 544768
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3365222537,
+      "bytes": 598016
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3518015865,
+      "bytes": 647168
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3777105981,
+      "bytes": 675840
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 3885795826,
+      "bytes": 745472
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4000490838,
+      "bytes": 798720
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4163154215,
+      "bytes": 847872
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4297063707,
+      "bytes": 880640
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4493644120,
+      "bytes": 909312
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4642558452,
+      "bytes": 987136
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4990049082,
+      "bytes": 995328
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 5196404596,
+      "bytes": 1028096
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 5314435780,
+      "bytes": 1040384
+    }
+  ],
+  "platform": "CLI",
+  "tag": "sim2",
+  "model": "bhprobe",
+  "device": "0009",
+  "network_type": 13,
+  "telephony_network_country": "ro",
+  "telephony_network_sim_country": "ro",
+  "signals": [
+    {
+      "signal_strength":-105
+    },
+    {
+      "lte_rsrp": -103,
+      "lte_rsrq": -16
+    }
+  ]
+}

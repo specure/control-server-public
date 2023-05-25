@@ -1,0 +1,16 @@
+{
+  "bool" : {
+    "should" : [
+      {
+        "terms" : {
+          "site.keyword" : [
+            "Site001"
+          ],
+          "boost" : 1.0
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

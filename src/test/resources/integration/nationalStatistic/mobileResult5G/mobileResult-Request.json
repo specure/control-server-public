@@ -1,0 +1,4172 @@
+{
+  "speed_detail": [
+    {
+      "time": 250000000,
+      "thread": 0,
+      "bytes": 14058,
+      "direction": "download"
+    },
+    {
+      "bytes": 41106,
+      "thread": 0,
+      "time": 500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 0,
+      "time": 750000000,
+      "direction": "download",
+      "bytes": 97557
+    },
+    {
+      "time": 1000000000,
+      "direction": "download",
+      "thread": 0,
+      "bytes": 218243
+    },
+    {
+      "time": 1250000000,
+      "direction": "download",
+      "thread": 0,
+      "bytes": 466762
+    },
+    {
+      "thread": 0,
+      "bytes": 738840,
+      "direction": "download",
+      "time": 1500000000
+    },
+    {
+      "bytes": 1012847,
+      "time": 1750000000,
+      "thread": 0,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "time": 2000000000,
+      "bytes": 1263227
+    },
+    {
+      "time": 2250000000,
+      "direction": "download",
+      "thread": 0,
+      "bytes": 1490427
+    },
+    {
+      "thread": 0,
+      "time": 2500000000,
+      "bytes": 2245037,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 2532302,
+      "thread": 0,
+      "time": 2750000000
+    },
+    {
+      "thread": 0,
+      "bytes": 3319751,
+      "time": 3000000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 4318549,
+      "thread": 0,
+      "direction": "download",
+      "time": 3250000000
+    },
+    {
+      "time": 3500000000,
+      "thread": 0,
+      "bytes": 4322798,
+      "direction": "download"
+    },
+    {
+      "bytes": 4732076,
+      "direction": "download",
+      "thread": 0,
+      "time": 3750000000
+    },
+    {
+      "thread": 0,
+      "bytes": 5432981,
+      "direction": "download",
+      "time": 4000000000
+    },
+    {
+      "thread": 0,
+      "time": 4250000000,
+      "bytes": 5595278,
+      "direction": "download"
+    },
+    {
+      "time": 4500000000,
+      "direction": "download",
+      "thread": 0,
+      "bytes": 6618217
+    },
+    {
+      "thread": 0,
+      "time": 4750000000,
+      "direction": "download",
+      "bytes": 7401416
+    },
+    {
+      "direction": "download",
+      "thread": 0,
+      "bytes": 7832604,
+      "time": 5000000000
+    },
+    {
+      "thread": 0,
+      "direction": "download",
+      "bytes": 8280918,
+      "time": 5250000000
+    },
+    {
+      "time": 5500000000,
+      "direction": "download",
+      "thread": 0,
+      "bytes": 9119215
+    },
+    {
+      "bytes": 9292197,
+      "thread": 0,
+      "time": 5750000000,
+      "direction": "download"
+    },
+    {
+      "time": 6000000000,
+      "direction": "download",
+      "bytes": 10470881,
+      "thread": 0
+    },
+    {
+      "bytes": 10563161,
+      "direction": "download",
+      "thread": 0,
+      "time": 6250000000
+    },
+    {
+      "bytes": 11890842,
+      "thread": 0,
+      "time": 6500000000,
+      "direction": "download"
+    },
+    {
+      "time": 6750000000,
+      "thread": 0,
+      "direction": "download",
+      "bytes": 11895663
+    },
+    {
+      "bytes": 12099584,
+      "thread": 0,
+      "time": 7040640042,
+      "direction": "download"
+    },
+    {
+      "thread": 1,
+      "bytes": 16244,
+      "direction": "download",
+      "time": 250000000
+    },
+    {
+      "time": 500000000,
+      "bytes": 55161,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 1,
+      "bytes": 120235,
+      "time": 750000000
+    },
+    {
+      "direction": "download",
+      "time": 1000000000,
+      "thread": 1,
+      "bytes": 236120
+    },
+    {
+      "time": 1250000000,
+      "bytes": 461574,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "bytes": 775026,
+      "thread": 1,
+      "time": 1500000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 1216151,
+      "time": 1750000000,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "bytes": 1477848,
+      "time": 2000000000,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "bytes": 1537745,
+      "direction": "download",
+      "time": 2250000000,
+      "thread": 1
+    },
+    {
+      "time": 2500000000,
+      "direction": "download",
+      "bytes": 2257702,
+      "thread": 1
+    },
+    {
+      "thread": 1,
+      "time": 2750000000,
+      "bytes": 3575722,
+      "direction": "download"
+    },
+    {
+      "time": 3000000000,
+      "direction": "download",
+      "bytes": 3844776,
+      "thread": 1
+    },
+    {
+      "time": 3250000000,
+      "direction": "download",
+      "bytes": 5478652,
+      "thread": 1
+    },
+    {
+      "time": 3500000000,
+      "thread": 1,
+      "direction": "download",
+      "bytes": 5490200
+    },
+    {
+      "thread": 1,
+      "direction": "download",
+      "time": 3750000000,
+      "bytes": 7084153
+    },
+    {
+      "bytes": 7244122,
+      "direction": "download",
+      "thread": 1,
+      "time": 4000000000
+    },
+    {
+      "bytes": 8338644,
+      "thread": 1,
+      "direction": "download",
+      "time": 4250000000
+    },
+    {
+      "thread": 1,
+      "time": 4500000000,
+      "bytes": 9033425,
+      "direction": "download"
+    },
+    {
+      "bytes": 10940667,
+      "time": 4750000000,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "bytes": 10943257,
+      "time": 5000000000,
+      "thread": 1,
+      "direction": "download"
+    },
+    {
+      "bytes": 12516203,
+      "time": 5250000000,
+      "direction": "download",
+      "thread": 1
+    },
+    {
+      "direction": "download",
+      "bytes": 12987449,
+      "time": 5500000000,
+      "thread": 1
+    },
+    {
+      "direction": "download",
+      "thread": 1,
+      "bytes": 14280084,
+      "time": 5750000000
+    },
+    {
+      "bytes": 15065221,
+      "thread": 1,
+      "time": 6000000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 15760906,
+      "direction": "download",
+      "thread": 1,
+      "time": 6250000000
+    },
+    {
+      "direction": "download",
+      "thread": 1,
+      "time": 6500000000,
+      "bytes": 17275448
+    },
+    {
+      "thread": 1,
+      "time": 6750000000,
+      "direction": "download",
+      "bytes": 17288830
+    },
+    {
+      "time": 7005766708,
+      "direction": "download",
+      "bytes": 18661376,
+      "thread": 1
+    },
+    {
+      "bytes": 14363,
+      "time": 250000000,
+      "direction": "download",
+      "thread": 2
+    },
+    {
+      "direction": "download",
+      "time": 500000000,
+      "bytes": 51096,
+      "thread": 2
+    },
+    {
+      "direction": "download",
+      "bytes": 121101,
+      "thread": 2,
+      "time": 750000000
+    },
+    {
+      "thread": 2,
+      "time": 1000000000,
+      "bytes": 224915,
+      "direction": "download"
+    },
+    {
+      "bytes": 433784,
+      "thread": 2,
+      "time": 1250000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 2,
+      "time": 1500000000,
+      "bytes": 941857
+    },
+    {
+      "thread": 2,
+      "direction": "download",
+      "bytes": 1222343,
+      "time": 1750000000
+    },
+    {
+      "bytes": 1477330,
+      "thread": 2,
+      "time": 2000000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 1522478,
+      "thread": 2,
+      "time": 2250000000,
+      "direction": "download"
+    },
+    {
+      "thread": 2,
+      "time": 2500000000,
+      "direction": "download",
+      "bytes": 2138928
+    },
+    {
+      "thread": 2,
+      "direction": "download",
+      "bytes": 3423474,
+      "time": 2750000000
+    },
+    {
+      "time": 3000000000,
+      "direction": "download",
+      "thread": 2,
+      "bytes": 3857890
+    },
+    {
+      "bytes": 4927279,
+      "thread": 2,
+      "direction": "download",
+      "time": 3250000000
+    },
+    {
+      "thread": 2,
+      "time": 3500000000,
+      "direction": "download",
+      "bytes": 5391587
+    },
+    {
+      "bytes": 6489858,
+      "time": 3750000000,
+      "direction": "download",
+      "thread": 2
+    },
+    {
+      "direction": "download",
+      "bytes": 6567365,
+      "time": 4000000000,
+      "thread": 2
+    },
+    {
+      "direction": "download",
+      "bytes": 8098779,
+      "time": 4250000000,
+      "thread": 2
+    },
+    {
+      "thread": 2,
+      "bytes": 8125146,
+      "time": 4500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 2,
+      "bytes": 9833057,
+      "direction": "download",
+      "time": 4750000000
+    },
+    {
+      "thread": 2,
+      "time": 5000000000,
+      "direction": "download",
+      "bytes": 9868616
+    },
+    {
+      "time": 5250000000,
+      "direction": "download",
+      "thread": 2,
+      "bytes": 11628890
+    },
+    {
+      "time": 5500000000,
+      "direction": "download",
+      "bytes": 11632320,
+      "thread": 2
+    },
+    {
+      "bytes": 13520292,
+      "time": 5750000000,
+      "direction": "download",
+      "thread": 2
+    },
+    {
+      "thread": 2,
+      "bytes": 13545882,
+      "time": 6000000000,
+      "direction": "download"
+    },
+    {
+      "time": 6250000000,
+      "thread": 2,
+      "bytes": 14989592,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "time": 6500000000,
+      "bytes": 15534139,
+      "thread": 2
+    },
+    {
+      "direction": "download",
+      "thread": 2,
+      "time": 6750000000,
+      "bytes": 15572502
+    },
+    {
+      "time": 7005209083,
+      "thread": 2,
+      "direction": "download",
+      "bytes": 17547264
+    },
+    {
+      "thread": 3,
+      "direction": "download",
+      "time": 250000000,
+      "bytes": 17151
+    },
+    {
+      "thread": 3,
+      "time": 500000000,
+      "direction": "download",
+      "bytes": 61790
+    },
+    {
+      "bytes": 119909,
+      "thread": 3,
+      "direction": "download",
+      "time": 750000000
+    },
+    {
+      "thread": 3,
+      "time": 1000000000,
+      "direction": "download",
+      "bytes": 243659
+    },
+    {
+      "direction": "download",
+      "time": 1250000000,
+      "bytes": 459780,
+      "thread": 3
+    },
+    {
+      "direction": "download",
+      "thread": 3,
+      "time": 1500000000,
+      "bytes": 950880
+    },
+    {
+      "thread": 3,
+      "time": 1750000000,
+      "direction": "download",
+      "bytes": 1214146
+    },
+    {
+      "bytes": 1475180,
+      "time": 2000000000,
+      "thread": 3,
+      "direction": "download"
+    },
+    {
+      "bytes": 1497432,
+      "time": 2250000000,
+      "direction": "download",
+      "thread": 3
+    },
+    {
+      "bytes": 2289877,
+      "thread": 3,
+      "time": 2500000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 3891993,
+      "direction": "download",
+      "time": 2750000000,
+      "thread": 3
+    },
+    {
+      "bytes": 5734310,
+      "direction": "download",
+      "time": 3000000000,
+      "thread": 3
+    },
+    {
+      "thread": 3,
+      "time": 3250000000,
+      "bytes": 5933986,
+      "direction": "download"
+    },
+    {
+      "thread": 3,
+      "time": 3500000000,
+      "bytes": 7681390,
+      "direction": "download"
+    },
+    {
+      "thread": 3,
+      "time": 3750000000,
+      "bytes": 7693213,
+      "direction": "download"
+    },
+    {
+      "time": 4000000000,
+      "thread": 3,
+      "bytes": 8688586,
+      "direction": "download"
+    },
+    {
+      "time": 4250000000,
+      "thread": 3,
+      "bytes": 9729866,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 3,
+      "time": 4500000000,
+      "bytes": 10762964
+    },
+    {
+      "thread": 3,
+      "direction": "download",
+      "time": 4750000000,
+      "bytes": 11913633
+    },
+    {
+      "thread": 3,
+      "direction": "download",
+      "time": 5000000000,
+      "bytes": 12579523
+    },
+    {
+      "bytes": 14138716,
+      "thread": 3,
+      "time": 5250000000,
+      "direction": "download"
+    },
+    {
+      "time": 5500000000,
+      "thread": 3,
+      "bytes": 15219395,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 16533718,
+      "time": 5750000000,
+      "thread": 3
+    },
+    {
+      "thread": 3,
+      "bytes": 16837135,
+      "direction": "download",
+      "time": 6000000000
+    },
+    {
+      "time": 6250000000,
+      "bytes": 18974868,
+      "thread": 3,
+      "direction": "download"
+    },
+    {
+      "thread": 3,
+      "direction": "download",
+      "bytes": 19318455,
+      "time": 6500000000
+    },
+    {
+      "bytes": 20313693,
+      "thread": 3,
+      "direction": "download",
+      "time": 6750000000
+    },
+    {
+      "time": 7152530792,
+      "bytes": 21422080,
+      "thread": 3,
+      "direction": "download"
+    },
+    {
+      "thread": 4,
+      "time": 250000000,
+      "direction": "download",
+      "bytes": 15320
+    },
+    {
+      "bytes": 42315,
+      "time": 500000000,
+      "thread": 4,
+      "direction": "download"
+    },
+    {
+      "bytes": 111441,
+      "direction": "download",
+      "time": 750000000,
+      "thread": 4
+    },
+    {
+      "direction": "download",
+      "bytes": 226804,
+      "thread": 4,
+      "time": 1000000000
+    },
+    {
+      "time": 1250000000,
+      "bytes": 464438,
+      "thread": 4,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 4,
+      "bytes": 709938,
+      "time": 1500000000
+    },
+    {
+      "thread": 4,
+      "time": 1750000000,
+      "bytes": 987408,
+      "direction": "download"
+    },
+    {
+      "bytes": 1229189,
+      "direction": "download",
+      "time": 2000000000,
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "time": 2250000000,
+      "direction": "download",
+      "bytes": 1455437
+    },
+    {
+      "thread": 4,
+      "bytes": 2137999,
+      "direction": "download",
+      "time": 2500000000
+    },
+    {
+      "bytes": 2282204,
+      "thread": 4,
+      "direction": "download",
+      "time": 2750000000
+    },
+    {
+      "bytes": 3110658,
+      "time": 3000000000,
+      "direction": "download",
+      "thread": 4
+    },
+    {
+      "direction": "download",
+      "bytes": 3840878,
+      "thread": 4,
+      "time": 3250000000
+    },
+    {
+      "thread": 4,
+      "bytes": 3976090,
+      "time": 3500000000,
+      "direction": "download"
+    },
+    {
+      "time": 3750000000,
+      "thread": 4,
+      "bytes": 3983280,
+      "direction": "download"
+    },
+    {
+      "time": 4000000000,
+      "bytes": 4893225,
+      "direction": "download",
+      "thread": 4
+    },
+    {
+      "direction": "download",
+      "bytes": 4908677,
+      "thread": 4,
+      "time": 4250000000
+    },
+    {
+      "thread": 4,
+      "direction": "download",
+      "bytes": 5854166,
+      "time": 4500000000
+    },
+    {
+      "bytes": 5879845,
+      "time": 4750000000,
+      "direction": "download",
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "time": 5000000000,
+      "direction": "download",
+      "bytes": 6716384
+    },
+    {
+      "time": 5250000000,
+      "bytes": 6875548,
+      "thread": 4,
+      "direction": "download"
+    },
+    {
+      "time": 5500000000,
+      "direction": "download",
+      "bytes": 7915834,
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "bytes": 7932249,
+      "time": 5750000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 8755379,
+      "thread": 4,
+      "time": 6000000000,
+      "direction": "download"
+    },
+    {
+      "thread": 4,
+      "direction": "download",
+      "bytes": 9049791,
+      "time": 6250000000
+    },
+    {
+      "direction": "download",
+      "time": 6500000000,
+      "bytes": 9322845,
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "time": 6750000000,
+      "direction": "download",
+      "bytes": 10220474
+    },
+    {
+      "direction": "download",
+      "thread": 4,
+      "time": 7532958542,
+      "bytes": 10235904
+    },
+    {
+      "time": 250000000,
+      "direction": "download",
+      "thread": 5,
+      "bytes": 11567
+    },
+    {
+      "time": 500000000,
+      "direction": "download",
+      "thread": 5,
+      "bytes": 42876
+    },
+    {
+      "thread": 5,
+      "time": 750000000,
+      "direction": "download",
+      "bytes": 105122
+    },
+    {
+      "direction": "download",
+      "bytes": 161096,
+      "time": 1000000000,
+      "thread": 5
+    },
+    {
+      "thread": 5,
+      "time": 1250000000,
+      "bytes": 225944,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 295105,
+      "time": 1500000000,
+      "thread": 5
+    },
+    {
+      "bytes": 398097,
+      "direction": "download",
+      "time": 1750000000,
+      "thread": 5
+    },
+    {
+      "direction": "download",
+      "bytes": 471215,
+      "thread": 5,
+      "time": 2000000000
+    },
+    {
+      "time": 2250000000,
+      "direction": "download",
+      "bytes": 474843,
+      "thread": 5
+    },
+    {
+      "bytes": 540537,
+      "time": 2500000000,
+      "direction": "download",
+      "thread": 5
+    },
+    {
+      "thread": 5,
+      "time": 2750000000,
+      "bytes": 596446,
+      "direction": "download"
+    },
+    {
+      "time": 3000000000,
+      "direction": "download",
+      "bytes": 617578,
+      "thread": 5
+    },
+    {
+      "time": 3250000000,
+      "thread": 5,
+      "bytes": 668739,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "time": 3500000000,
+      "bytes": 688767,
+      "thread": 5
+    },
+    {
+      "bytes": 726029,
+      "time": 3750000000,
+      "direction": "download",
+      "thread": 5
+    },
+    {
+      "direction": "download",
+      "thread": 5,
+      "bytes": 737118,
+      "time": 4000000000
+    },
+    {
+      "time": 4250000000,
+      "bytes": 788277,
+      "direction": "download",
+      "thread": 5
+    },
+    {
+      "direction": "download",
+      "time": 4500000000,
+      "thread": 5,
+      "bytes": 802208
+    },
+    {
+      "thread": 5,
+      "time": 4750000000,
+      "direction": "download",
+      "bytes": 860733
+    },
+    {
+      "direction": "download",
+      "bytes": 867019,
+      "time": 5000000000,
+      "thread": 5
+    },
+    {
+      "thread": 5,
+      "time": 5250000000,
+      "direction": "download",
+      "bytes": 921485
+    },
+    {
+      "bytes": 931993,
+      "direction": "download",
+      "thread": 5,
+      "time": 5500000000
+    },
+    {
+      "time": 5750000000,
+      "bytes": 981022,
+      "thread": 5,
+      "direction": "download"
+    },
+    {
+      "thread": 5,
+      "bytes": 993939,
+      "direction": "download",
+      "time": 6000000000
+    },
+    {
+      "thread": 5,
+      "time": 6250000000,
+      "direction": "download",
+      "bytes": 1043649
+    },
+    {
+      "thread": 5,
+      "time": 6500000000,
+      "direction": "download",
+      "bytes": 1055399
+    },
+    {
+      "thread": 5,
+      "bytes": 1060285,
+      "direction": "download",
+      "time": 6750000000
+    },
+    {
+      "thread": 5,
+      "direction": "download",
+      "time": 7064771958,
+      "bytes": 1110016
+    },
+    {
+      "thread": 6,
+      "bytes": 12609,
+      "time": 250000000,
+      "direction": "download"
+    },
+    {
+      "thread": 6,
+      "time": 500000000,
+      "bytes": 44396,
+      "direction": "download"
+    },
+    {
+      "time": 750000000,
+      "direction": "download",
+      "bytes": 112547,
+      "thread": 6
+    },
+    {
+      "time": 1000000000,
+      "bytes": 177294,
+      "direction": "download",
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "time": 1250000000,
+      "direction": "download",
+      "bytes": 270425
+    },
+    {
+      "direction": "download",
+      "time": 1500000000,
+      "thread": 6,
+      "bytes": 346073
+    },
+    {
+      "direction": "download",
+      "thread": 6,
+      "bytes": 410789,
+      "time": 1750000000
+    },
+    {
+      "thread": 6,
+      "bytes": 499144,
+      "time": 2000000000,
+      "direction": "download"
+    },
+    {
+      "time": 2250000000,
+      "direction": "download",
+      "bytes": 551608,
+      "thread": 6
+    },
+    {
+      "bytes": 598740,
+      "direction": "download",
+      "thread": 6,
+      "time": 2500000000
+    },
+    {
+      "thread": 6,
+      "time": 2750000000,
+      "bytes": 641536,
+      "direction": "download"
+    },
+    {
+      "time": 3000000000,
+      "direction": "download",
+      "bytes": 694021,
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "time": 3250000000,
+      "direction": "download",
+      "bytes": 731392
+    },
+    {
+      "time": 3500000000,
+      "direction": "download",
+      "thread": 6,
+      "bytes": 737624
+    },
+    {
+      "time": 3750000000,
+      "direction": "download",
+      "bytes": 783263,
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "time": 4000000000,
+      "bytes": 814969,
+      "direction": "download"
+    },
+    {
+      "thread": 6,
+      "time": 4250000000,
+      "bytes": 844763,
+      "direction": "download"
+    },
+    {
+      "bytes": 865485,
+      "thread": 6,
+      "direction": "download",
+      "time": 4500000000
+    },
+    {
+      "time": 4750000000,
+      "bytes": 918763,
+      "thread": 6,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 6,
+      "time": 5000000000,
+      "bytes": 924467
+    },
+    {
+      "time": 5250000000,
+      "direction": "download",
+      "thread": 6,
+      "bytes": 974317
+    },
+    {
+      "time": 5500000000,
+      "thread": 6,
+      "direction": "download",
+      "bytes": 1009892
+    },
+    {
+      "direction": "download",
+      "bytes": 1038278,
+      "time": 5750000000,
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "bytes": 1067085,
+      "time": 6000000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 1099456,
+      "thread": 6,
+      "time": 6250000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 1125110,
+      "direction": "download",
+      "time": 6500000000,
+      "thread": 6
+    },
+    {
+      "time": 6750000000,
+      "direction": "download",
+      "thread": 6,
+      "bytes": 1140614
+    },
+    {
+      "time": 7029431250,
+      "thread": 6,
+      "direction": "download",
+      "bytes": 1171456
+    },
+    {
+      "thread": 7,
+      "bytes": 15306,
+      "time": 250000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 42393,
+      "time": 500000000,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "time": 750000000,
+      "direction": "download",
+      "bytes": 108882,
+      "thread": 7
+    },
+    {
+      "time": 1000000000,
+      "bytes": 238112,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "time": 1250000000,
+      "bytes": 486866,
+      "direction": "download"
+    },
+    {
+      "time": 1500000000,
+      "bytes": 734144,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "bytes": 967445,
+      "thread": 7,
+      "time": 1750000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 1225111,
+      "thread": 7,
+      "direction": "download",
+      "time": 2000000000
+    },
+    {
+      "time": 2250000000,
+      "bytes": 1273980,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "time": 2500000000,
+      "direction": "download",
+      "bytes": 1489328
+    },
+    {
+      "time": 2750000000,
+      "bytes": 2038438,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "bytes": 2613845,
+      "direction": "download",
+      "time": 3000000000
+    },
+    {
+      "thread": 7,
+      "direction": "download",
+      "bytes": 2631380,
+      "time": 3250000000
+    },
+    {
+      "bytes": 3233690,
+      "direction": "download",
+      "thread": 7,
+      "time": 3500000000
+    },
+    {
+      "direction": "download",
+      "thread": 7,
+      "bytes": 3339521,
+      "time": 3750000000
+    },
+    {
+      "bytes": 3445352,
+      "time": 4000000000,
+      "direction": "download",
+      "thread": 7
+    },
+    {
+      "direction": "download",
+      "bytes": 3906121,
+      "thread": 7,
+      "time": 4250000000
+    },
+    {
+      "time": 4500000000,
+      "thread": 7,
+      "bytes": 4022917,
+      "direction": "download"
+    },
+    {
+      "bytes": 4556715,
+      "time": 4750000000,
+      "thread": 7,
+      "direction": "download"
+    },
+    {
+      "time": 5000000000,
+      "bytes": 4568276,
+      "thread": 7,
+      "direction": "download"
+    },
+    {
+      "time": 5250000000,
+      "bytes": 5267836,
+      "thread": 7,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 7,
+      "bytes": 5281185,
+      "time": 5500000000
+    },
+    {
+      "bytes": 6012556,
+      "thread": 7,
+      "direction": "download",
+      "time": 5750000000
+    },
+    {
+      "time": 6000000000,
+      "thread": 7,
+      "direction": "download",
+      "bytes": 6025752
+    },
+    {
+      "time": 6250000000,
+      "bytes": 6795620,
+      "thread": 7,
+      "direction": "download"
+    },
+    {
+      "bytes": 6804549,
+      "thread": 7,
+      "time": 6500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 7,
+      "bytes": 6813478,
+      "time": 6750000000,
+      "direction": "download"
+    },
+    {
+      "thread": 7,
+      "time": 7003655583,
+      "direction": "download",
+      "bytes": 7618560
+    },
+    {
+      "time": 250000000,
+      "bytes": 14819,
+      "thread": 8,
+      "direction": "download"
+    },
+    {
+      "time": 500000000,
+      "direction": "download",
+      "thread": 8,
+      "bytes": 49243
+    },
+    {
+      "thread": 8,
+      "direction": "download",
+      "bytes": 100614,
+      "time": 750000000
+    },
+    {
+      "bytes": 313502,
+      "direction": "download",
+      "thread": 8,
+      "time": 1000000000
+    },
+    {
+      "thread": 8,
+      "time": 1250000000,
+      "direction": "download",
+      "bytes": 705564
+    },
+    {
+      "time": 1500000000,
+      "bytes": 1010420,
+      "thread": 8,
+      "direction": "download"
+    },
+    {
+      "thread": 8,
+      "bytes": 1281183,
+      "direction": "download",
+      "time": 1750000000
+    },
+    {
+      "bytes": 1578391,
+      "time": 2000000000,
+      "direction": "download",
+      "thread": 8
+    },
+    {
+      "bytes": 2122188,
+      "time": 2250000000,
+      "direction": "download",
+      "thread": 8
+    },
+    {
+      "time": 2500000000,
+      "direction": "download",
+      "thread": 8,
+      "bytes": 3514807
+    },
+    {
+      "thread": 8,
+      "bytes": 3861469,
+      "time": 2750000000,
+      "direction": "download"
+    },
+    {
+      "thread": 8,
+      "bytes": 5322081,
+      "time": 3000000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 8,
+      "bytes": 6956092,
+      "time": 3250000000
+    },
+    {
+      "thread": 8,
+      "direction": "download",
+      "bytes": 7003920,
+      "time": 3500000000
+    },
+    {
+      "thread": 8,
+      "direction": "download",
+      "bytes": 7051748,
+      "time": 3750000000
+    },
+    {
+      "time": 4000000000,
+      "direction": "download",
+      "bytes": 8672477,
+      "thread": 8
+    },
+    {
+      "time": 4250000000,
+      "thread": 8,
+      "direction": "download",
+      "bytes": 8674979
+    },
+    {
+      "bytes": 10495559,
+      "thread": 8,
+      "direction": "download",
+      "time": 4500000000
+    },
+    {
+      "bytes": 11325040,
+      "time": 4750000000,
+      "direction": "download",
+      "thread": 8
+    },
+    {
+      "time": 5000000000,
+      "thread": 8,
+      "bytes": 12413616,
+      "direction": "download"
+    },
+    {
+      "time": 5250000000,
+      "direction": "download",
+      "bytes": 12534734,
+      "thread": 8
+    },
+    {
+      "bytes": 14384179,
+      "direction": "download",
+      "thread": 8,
+      "time": 5500000000
+    },
+    {
+      "thread": 8,
+      "bytes": 14403669,
+      "time": 5750000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 16500466,
+      "direction": "download",
+      "thread": 8,
+      "time": 6000000000
+    },
+    {
+      "time": 6250000000,
+      "direction": "download",
+      "thread": 8,
+      "bytes": 16577929
+    },
+    {
+      "thread": 8,
+      "bytes": 18694812,
+      "time": 6500000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 18786170,
+      "thread": 8,
+      "direction": "download",
+      "time": 6750000000
+    },
+    {
+      "time": 7024973167,
+      "direction": "download",
+      "bytes": 18886656,
+      "thread": 8
+    },
+    {
+      "direction": "download",
+      "thread": 9,
+      "bytes": 16228,
+      "time": 250000000
+    },
+    {
+      "bytes": 47427,
+      "direction": "download",
+      "time": 500000000,
+      "thread": 9
+    },
+    {
+      "direction": "download",
+      "time": 750000000,
+      "thread": 9,
+      "bytes": 105182
+    },
+    {
+      "bytes": 211389,
+      "time": 1000000000,
+      "direction": "download",
+      "thread": 9
+    },
+    {
+      "bytes": 436538,
+      "thread": 9,
+      "time": 1250000000,
+      "direction": "download"
+    },
+    {
+      "thread": 9,
+      "time": 1500000000,
+      "direction": "download",
+      "bytes": 753840
+    },
+    {
+      "direction": "download",
+      "thread": 9,
+      "time": 1750000000,
+      "bytes": 1184439
+    },
+    {
+      "thread": 9,
+      "direction": "download",
+      "bytes": 1446914,
+      "time": 2000000000
+    },
+    {
+      "direction": "download",
+      "time": 2250000000,
+      "thread": 9,
+      "bytes": 1494969
+    },
+    {
+      "time": 2500000000,
+      "thread": 9,
+      "bytes": 2313035,
+      "direction": "download"
+    },
+    {
+      "time": 2750000000,
+      "bytes": 3566795,
+      "direction": "download",
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "bytes": 4085975,
+      "time": 3000000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 5183145,
+      "thread": 9,
+      "time": 3250000000
+    },
+    {
+      "thread": 9,
+      "bytes": 5786723,
+      "time": 3500000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 6657958,
+      "thread": 9,
+      "time": 3750000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 6741563,
+      "thread": 9,
+      "time": 4000000000
+    },
+    {
+      "direction": "download",
+      "bytes": 7969306,
+      "thread": 9,
+      "time": 4250000000
+    },
+    {
+      "thread": 9,
+      "bytes": 8361279,
+      "time": 4500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 9,
+      "bytes": 9999147,
+      "time": 4750000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "time": 5000000000,
+      "bytes": 10056480,
+      "thread": 9
+    },
+    {
+      "bytes": 11647561,
+      "direction": "download",
+      "thread": 9,
+      "time": 5250000000
+    },
+    {
+      "direction": "download",
+      "thread": 9,
+      "time": 5500000000,
+      "bytes": 11841657
+    },
+    {
+      "direction": "download",
+      "time": 5750000000,
+      "thread": 9,
+      "bytes": 13243984
+    },
+    {
+      "thread": 9,
+      "bytes": 13721692,
+      "time": 6000000000,
+      "direction": "download"
+    },
+    {
+      "thread": 9,
+      "bytes": 14983160,
+      "time": 6250000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 15677784,
+      "direction": "download",
+      "time": 6500000000,
+      "thread": 9
+    },
+    {
+      "bytes": 15718777,
+      "direction": "download",
+      "thread": 9,
+      "time": 6750000000
+    },
+    {
+      "bytes": 17219584,
+      "thread": 9,
+      "time": 7030764792,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 10,
+      "bytes": 13066,
+      "time": 250000000
+    },
+    {
+      "bytes": 59997,
+      "thread": 10,
+      "time": 500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "bytes": 133469,
+      "time": 750000000,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "time": 1000000000,
+      "bytes": 237968,
+      "thread": 10
+    },
+    {
+      "bytes": 621443,
+      "direction": "download",
+      "time": 1250000000,
+      "thread": 10
+    },
+    {
+      "time": 1500000000,
+      "thread": 10,
+      "direction": "download",
+      "bytes": 1385587
+    },
+    {
+      "thread": 10,
+      "bytes": 1818646,
+      "time": 1750000000,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "bytes": 2943537,
+      "direction": "download",
+      "time": 2000000000
+    },
+    {
+      "time": 2250000000,
+      "direction": "download",
+      "bytes": 3263638,
+      "thread": 10
+    },
+    {
+      "thread": 10,
+      "bytes": 5188507,
+      "time": 2500000000,
+      "direction": "download"
+    },
+    {
+      "time": 2750000000,
+      "thread": 10,
+      "direction": "download",
+      "bytes": 6918751
+    },
+    {
+      "time": 3000000000,
+      "direction": "download",
+      "thread": 10,
+      "bytes": 9036490
+    },
+    {
+      "thread": 10,
+      "time": 3250000000,
+      "bytes": 10443239,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 11290234,
+      "thread": 10,
+      "time": 3500000000
+    },
+    {
+      "thread": 10,
+      "direction": "download",
+      "bytes": 11326205,
+      "time": 3750000000
+    },
+    {
+      "thread": 10,
+      "bytes": 13518141,
+      "direction": "download",
+      "time": 4000000000
+    },
+    {
+      "thread": 10,
+      "direction": "download",
+      "time": 4250000000,
+      "bytes": 13671195
+    },
+    {
+      "time": 4500000000,
+      "bytes": 15975141,
+      "thread": 10,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "bytes": 16178626,
+      "time": 4750000000,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "direction": "download",
+      "time": 5000000000,
+      "bytes": 17943540
+    },
+    {
+      "time": 5250000000,
+      "direction": "download",
+      "thread": 10,
+      "bytes": 18760768
+    },
+    {
+      "thread": 10,
+      "time": 5500000000,
+      "bytes": 21131525,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "bytes": 21437586,
+      "time": 5750000000,
+      "direction": "download"
+    },
+    {
+      "time": 6000000000,
+      "thread": 10,
+      "bytes": 23124247,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "direction": "download",
+      "time": 6250000000,
+      "bytes": 24283867
+    },
+    {
+      "thread": 10,
+      "bytes": 25640335,
+      "time": 6500000000,
+      "direction": "download"
+    },
+    {
+      "thread": 10,
+      "time": 6750000000,
+      "direction": "download",
+      "bytes": 27123808
+    },
+    {
+      "thread": 10,
+      "time": 7168561750,
+      "direction": "download",
+      "bytes": 27230208
+    },
+    {
+      "time": 250000000,
+      "thread": 11,
+      "bytes": 15308,
+      "direction": "download"
+    },
+    {
+      "bytes": 45947,
+      "direction": "download",
+      "thread": 11,
+      "time": 500000000
+    },
+    {
+      "time": 750000000,
+      "thread": 11,
+      "bytes": 115417,
+      "direction": "download"
+    },
+    {
+      "thread": 11,
+      "bytes": 230895,
+      "time": 1000000000,
+      "direction": "download"
+    },
+    {
+      "thread": 11,
+      "bytes": 568813,
+      "time": 1250000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 963565,
+      "time": 1500000000,
+      "direction": "download",
+      "thread": 11
+    },
+    {
+      "direction": "download",
+      "thread": 11,
+      "bytes": 1226791,
+      "time": 1750000000
+    },
+    {
+      "bytes": 1477887,
+      "time": 2000000000,
+      "direction": "download",
+      "thread": 11
+    },
+    {
+      "thread": 11,
+      "bytes": 1589671,
+      "time": 2250000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 2308801,
+      "direction": "download",
+      "thread": 11,
+      "time": 2500000000
+    },
+    {
+      "bytes": 3172121,
+      "direction": "download",
+      "time": 2750000000,
+      "thread": 11
+    },
+    {
+      "direction": "download",
+      "time": 3000000000,
+      "bytes": 4109969,
+      "thread": 11
+    },
+    {
+      "bytes": 4512242,
+      "direction": "download",
+      "thread": 11,
+      "time": 3250000000
+    },
+    {
+      "bytes": 5118155,
+      "thread": 11,
+      "direction": "download",
+      "time": 3500000000
+    },
+    {
+      "bytes": 5134483,
+      "time": 3750000000,
+      "thread": 11,
+      "direction": "download"
+    },
+    {
+      "time": 4000000000,
+      "thread": 11,
+      "bytes": 5848934,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "bytes": 6217674,
+      "thread": 11,
+      "time": 4250000000
+    },
+    {
+      "thread": 11,
+      "time": 4500000000,
+      "bytes": 6928448,
+      "direction": "download"
+    },
+    {
+      "direction": "download",
+      "thread": 11,
+      "time": 4750000000,
+      "bytes": 7360643
+    },
+    {
+      "bytes": 7877053,
+      "thread": 11,
+      "direction": "download",
+      "time": 5000000000
+    },
+    {
+      "bytes": 8458538,
+      "direction": "download",
+      "thread": 11,
+      "time": 5250000000
+    },
+    {
+      "thread": 11,
+      "direction": "download",
+      "bytes": 9275659,
+      "time": 5500000000
+    },
+    {
+      "time": 5750000000,
+      "bytes": 9710646,
+      "thread": 11,
+      "direction": "download"
+    },
+    {
+      "bytes": 10209255,
+      "thread": 11,
+      "direction": "download",
+      "time": 6000000000
+    },
+    {
+      "thread": 11,
+      "time": 6250000000,
+      "bytes": 10977755,
+      "direction": "download"
+    },
+    {
+      "time": 6500000000,
+      "bytes": 11492145,
+      "thread": 11,
+      "direction": "download"
+    },
+    {
+      "thread": 11,
+      "bytes": 12092102,
+      "time": 6750000000,
+      "direction": "download"
+    },
+    {
+      "bytes": 12333056,
+      "thread": 11,
+      "direction": "download",
+      "time": 7143930667
+    },
+    {
+      "direction": "upload",
+      "bytes": 2971,
+      "thread": 0,
+      "time": 250000000
+    },
+    {
+      "time": 500000000,
+      "bytes": 30762,
+      "direction": "upload",
+      "thread": 0
+    },
+    {
+      "thread": 0,
+      "time": 750000000,
+      "bytes": 86337,
+      "direction": "upload"
+    },
+    {
+      "thread": 0,
+      "direction": "upload",
+      "bytes": 140212,
+      "time": 1000000000
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "bytes": 198524,
+      "time": 1250000000
+    },
+    {
+      "time": 1500000000,
+      "direction": "upload",
+      "thread": 0,
+      "bytes": 260204
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 1750000000,
+      "bytes": 305659
+    },
+    {
+      "bytes": 334241,
+      "direction": "upload",
+      "thread": 0,
+      "time": 2000000000
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "bytes": 357068,
+      "time": 2250000000
+    },
+    {
+      "bytes": 382891,
+      "thread": 0,
+      "direction": "upload",
+      "time": 2500000000
+    },
+    {
+      "bytes": 407539,
+      "thread": 0,
+      "direction": "upload",
+      "time": 2750000000
+    },
+    {
+      "thread": 0,
+      "bytes": 430191,
+      "time": 3000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 3250000000,
+      "direction": "upload",
+      "thread": 0,
+      "bytes": 449327
+    },
+    {
+      "bytes": 485227,
+      "direction": "upload",
+      "thread": 0,
+      "time": 3500000000
+    },
+    {
+      "thread": 0,
+      "direction": "upload",
+      "time": 3750000000,
+      "bytes": 525294
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 4000000000,
+      "bytes": 546211
+    },
+    {
+      "direction": "upload",
+      "time": 4250000000,
+      "thread": 0,
+      "bytes": 594541
+    },
+    {
+      "thread": 0,
+      "time": 4500000000,
+      "direction": "upload",
+      "bytes": 618939
+    },
+    {
+      "thread": 0,
+      "bytes": 650206,
+      "direction": "upload",
+      "time": 4750000000
+    },
+    {
+      "time": 5000000000,
+      "thread": 0,
+      "bytes": 690460,
+      "direction": "upload"
+    },
+    {
+      "thread": 0,
+      "time": 5250000000,
+      "direction": "upload",
+      "bytes": 715218
+    },
+    {
+      "thread": 0,
+      "bytes": 756060,
+      "direction": "upload",
+      "time": 5500000000
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "time": 5750000000,
+      "bytes": 779467
+    },
+    {
+      "direction": "upload",
+      "thread": 0,
+      "bytes": 821607,
+      "time": 6000000000
+    },
+    {
+      "thread": 0,
+      "time": 6250000000,
+      "bytes": 846953,
+      "direction": "upload"
+    },
+    {
+      "thread": 0,
+      "direction": "upload",
+      "bytes": 883213,
+      "time": 6500000000
+    },
+    {
+      "bytes": 931052,
+      "time": 6750000000,
+      "thread": 0,
+      "direction": "upload"
+    },
+    {
+      "bytes": 964205,
+      "time": 7000000000,
+      "thread": 0,
+      "direction": "upload"
+    },
+    {
+      "thread": 0,
+      "bytes": 1011712,
+      "time": 7309474978,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 3678,
+      "thread": 1,
+      "time": 250000000
+    },
+    {
+      "thread": 1,
+      "direction": "upload",
+      "bytes": 135105,
+      "time": 500000000
+    },
+    {
+      "time": 750000000,
+      "direction": "upload",
+      "thread": 1,
+      "bytes": 159660
+    },
+    {
+      "direction": "upload",
+      "thread": 1,
+      "bytes": 214114,
+      "time": 1000000000
+    },
+    {
+      "direction": "upload",
+      "thread": 1,
+      "bytes": 272163,
+      "time": 1250000000
+    },
+    {
+      "direction": "upload",
+      "time": 1500000000,
+      "bytes": 334692,
+      "thread": 1
+    },
+    {
+      "direction": "upload",
+      "bytes": 381248,
+      "time": 1750000000,
+      "thread": 1
+    },
+    {
+      "bytes": 408240,
+      "thread": 1,
+      "direction": "upload",
+      "time": 2000000000
+    },
+    {
+      "bytes": 431230,
+      "direction": "upload",
+      "thread": 1,
+      "time": 2250000000
+    },
+    {
+      "direction": "upload",
+      "thread": 1,
+      "bytes": 458239,
+      "time": 2500000000
+    },
+    {
+      "time": 2750000000,
+      "direction": "upload",
+      "bytes": 481481,
+      "thread": 1
+    },
+    {
+      "thread": 1,
+      "time": 3000000000,
+      "direction": "upload",
+      "bytes": 504516
+    },
+    {
+      "bytes": 522722,
+      "time": 3250000000,
+      "thread": 1,
+      "direction": "upload"
+    },
+    {
+      "thread": 1,
+      "direction": "upload",
+      "bytes": 560330,
+      "time": 3500000000
+    },
+    {
+      "direction": "upload",
+      "thread": 1,
+      "time": 3750000000,
+      "bytes": 610931
+    },
+    {
+      "bytes": 760991,
+      "thread": 1,
+      "direction": "upload",
+      "time": 4000000000
+    },
+    {
+      "bytes": 823421,
+      "time": 4250000000,
+      "direction": "upload",
+      "thread": 1
+    },
+    {
+      "direction": "upload",
+      "thread": 1,
+      "time": 4500000000,
+      "bytes": 939789
+    },
+    {
+      "direction": "upload",
+      "bytes": 1017615,
+      "time": 4750000000,
+      "thread": 1
+    },
+    {
+      "direction": "upload",
+      "time": 5000000000,
+      "thread": 1,
+      "bytes": 1089818
+    },
+    {
+      "time": 5250000000,
+      "direction": "upload",
+      "thread": 1,
+      "bytes": 1174607
+    },
+    {
+      "bytes": 1217791,
+      "time": 5500000000,
+      "direction": "upload",
+      "thread": 1
+    },
+    {
+      "time": 5750000000,
+      "thread": 1,
+      "bytes": 1291765,
+      "direction": "upload"
+    },
+    {
+      "thread": 1,
+      "bytes": 1339838,
+      "direction": "upload",
+      "time": 6000000000
+    },
+    {
+      "bytes": 1407614,
+      "thread": 1,
+      "time": 6250000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 6500000000,
+      "bytes": 1462493,
+      "thread": 1
+    },
+    {
+      "time": 6750000000,
+      "bytes": 1529772,
+      "direction": "upload",
+      "thread": 1
+    },
+    {
+      "bytes": 1604215,
+      "time": 7000000000,
+      "thread": 1,
+      "direction": "upload"
+    },
+    {
+      "thread": 1,
+      "bytes": 2281472,
+      "time": 8167299323,
+      "direction": "upload"
+    },
+    {
+      "time": 250000000,
+      "bytes": 2126,
+      "direction": "upload",
+      "thread": 2
+    },
+    {
+      "bytes": 9277,
+      "direction": "upload",
+      "thread": 2,
+      "time": 500000000
+    },
+    {
+      "thread": 2,
+      "bytes": 64639,
+      "time": 750000000,
+      "direction": "upload"
+    },
+    {
+      "time": 1000000000,
+      "direction": "upload",
+      "thread": 2,
+      "bytes": 118970
+    },
+    {
+      "bytes": 176955,
+      "direction": "upload",
+      "time": 1250000000,
+      "thread": 2
+    },
+    {
+      "direction": "upload",
+      "bytes": 238745,
+      "time": 1500000000,
+      "thread": 2
+    },
+    {
+      "bytes": 282619,
+      "time": 1750000000,
+      "direction": "upload",
+      "thread": 2
+    },
+    {
+      "thread": 2,
+      "time": 2000000000,
+      "bytes": 312137,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "thread": 2,
+      "bytes": 335606,
+      "time": 2250000000
+    },
+    {
+      "thread": 2,
+      "bytes": 360290,
+      "direction": "upload",
+      "time": 2500000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 386145,
+      "time": 2750000000,
+      "thread": 2
+    },
+    {
+      "direction": "upload",
+      "time": 3000000000,
+      "thread": 2,
+      "bytes": 406322
+    },
+    {
+      "bytes": 427868,
+      "direction": "upload",
+      "thread": 2,
+      "time": 3250000000
+    },
+    {
+      "time": 3500000000,
+      "direction": "upload",
+      "bytes": 463028,
+      "thread": 2
+    },
+    {
+      "thread": 2,
+      "direction": "upload",
+      "bytes": 507432,
+      "time": 3750000000
+    },
+    {
+      "thread": 2,
+      "bytes": 549217,
+      "time": 4000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 586373,
+      "time": 4250000000,
+      "thread": 2,
+      "direction": "upload"
+    },
+    {
+      "time": 4500000000,
+      "thread": 2,
+      "bytes": 655992,
+      "direction": "upload"
+    },
+    {
+      "time": 4750000000,
+      "thread": 2,
+      "bytes": 734630,
+      "direction": "upload"
+    },
+    {
+      "bytes": 807116,
+      "thread": 2,
+      "direction": "upload",
+      "time": 5000000000
+    },
+    {
+      "thread": 2,
+      "direction": "upload",
+      "time": 5250000000,
+      "bytes": 894316
+    },
+    {
+      "time": 5500000000,
+      "bytes": 934545,
+      "thread": 2,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 5750000000,
+      "thread": 2,
+      "bytes": 1011994
+    },
+    {
+      "bytes": 1057660,
+      "thread": 2,
+      "time": 6000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 1125123,
+      "time": 6250000000,
+      "thread": 2,
+      "direction": "upload"
+    },
+    {
+      "time": 6500000000,
+      "bytes": 1179271,
+      "thread": 2,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 6750000000,
+      "thread": 2,
+      "bytes": 1246158
+    },
+    {
+      "time": 7000000000,
+      "direction": "upload",
+      "bytes": 1318597,
+      "thread": 2
+    },
+    {
+      "time": 7432522833,
+      "thread": 2,
+      "direction": "upload",
+      "bytes": 1437696
+    },
+    {
+      "time": 250000000,
+      "bytes": 3000,
+      "direction": "upload",
+      "thread": 3
+    },
+    {
+      "bytes": 64706,
+      "time": 500000000,
+      "direction": "upload",
+      "thread": 3
+    },
+    {
+      "thread": 3,
+      "time": 750000000,
+      "bytes": 120317,
+      "direction": "upload"
+    },
+    {
+      "bytes": 173247,
+      "thread": 3,
+      "time": 1000000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 239384,
+      "thread": 3,
+      "time": 1250000000
+    },
+    {
+      "direction": "upload",
+      "thread": 3,
+      "time": 1500000000,
+      "bytes": 300931
+    },
+    {
+      "time": 1750000000,
+      "thread": 3,
+      "direction": "upload",
+      "bytes": 345738
+    },
+    {
+      "bytes": 376134,
+      "direction": "upload",
+      "time": 2000000000,
+      "thread": 3
+    },
+    {
+      "direction": "upload",
+      "time": 2250000000,
+      "thread": 3,
+      "bytes": 403043
+    },
+    {
+      "bytes": 428157,
+      "direction": "upload",
+      "time": 2500000000,
+      "thread": 3
+    },
+    {
+      "direction": "upload",
+      "thread": 3,
+      "time": 2750000000,
+      "bytes": 453486
+    },
+    {
+      "thread": 3,
+      "bytes": 473295,
+      "time": 3000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 3250000000,
+      "thread": 3,
+      "direction": "upload",
+      "bytes": 495030
+    },
+    {
+      "bytes": 530524,
+      "time": 3500000000,
+      "thread": 3,
+      "direction": "upload"
+    },
+    {
+      "thread": 3,
+      "time": 3750000000,
+      "bytes": 570178,
+      "direction": "upload"
+    },
+    {
+      "time": 4000000000,
+      "direction": "upload",
+      "thread": 3,
+      "bytes": 605171
+    },
+    {
+      "direction": "upload",
+      "thread": 3,
+      "bytes": 663562,
+      "time": 4250000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 689381,
+      "time": 4500000000,
+      "thread": 3
+    },
+    {
+      "direction": "upload",
+      "time": 4750000000,
+      "thread": 3,
+      "bytes": 734697
+    },
+    {
+      "bytes": 772774,
+      "time": 5000000000,
+      "direction": "upload",
+      "thread": 3
+    },
+    {
+      "bytes": 798342,
+      "time": 5250000000,
+      "thread": 3,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 5500000000,
+      "thread": 3,
+      "bytes": 836850
+    },
+    {
+      "bytes": 863467,
+      "time": 5750000000,
+      "direction": "upload",
+      "thread": 3
+    },
+    {
+      "bytes": 906398,
+      "thread": 3,
+      "time": 6000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 6250000000,
+      "direction": "upload",
+      "thread": 3,
+      "bytes": 921396
+    },
+    {
+      "time": 6500000000,
+      "bytes": 974860,
+      "thread": 3,
+      "direction": "upload"
+    },
+    {
+      "time": 6750000000,
+      "thread": 3,
+      "direction": "upload",
+      "bytes": 996545
+    },
+    {
+      "bytes": 1035128,
+      "time": 7000000000,
+      "direction": "upload",
+      "thread": 3
+    },
+    {
+      "direction": "upload",
+      "time": 7283253955,
+      "thread": 3,
+      "bytes": 1089536
+    },
+    {
+      "direction": "upload",
+      "bytes": 2121,
+      "time": 250000000,
+      "thread": 4
+    },
+    {
+      "bytes": 9025,
+      "thread": 4,
+      "time": 500000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 64261,
+      "direction": "upload",
+      "thread": 4,
+      "time": 750000000
+    },
+    {
+      "thread": 4,
+      "bytes": 118780,
+      "time": 1000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 1250000000,
+      "bytes": 176651,
+      "direction": "upload",
+      "thread": 4
+    },
+    {
+      "bytes": 238520,
+      "direction": "upload",
+      "time": 1500000000,
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "time": 1750000000,
+      "direction": "upload",
+      "bytes": 284913
+    },
+    {
+      "time": 2000000000,
+      "thread": 4,
+      "bytes": 313747,
+      "direction": "upload"
+    },
+    {
+      "time": 2250000000,
+      "thread": 4,
+      "direction": "upload",
+      "bytes": 336332
+    },
+    {
+      "time": 2500000000,
+      "direction": "upload",
+      "thread": 4,
+      "bytes": 363303
+    },
+    {
+      "direction": "upload",
+      "bytes": 386869,
+      "thread": 4,
+      "time": 2750000000
+    },
+    {
+      "thread": 4,
+      "time": 3000000000,
+      "direction": "upload",
+      "bytes": 405063
+    },
+    {
+      "time": 3250000000,
+      "direction": "upload",
+      "bytes": 425311,
+      "thread": 4
+    },
+    {
+      "direction": "upload",
+      "thread": 4,
+      "time": 3500000000,
+      "bytes": 461283
+    },
+    {
+      "direction": "upload",
+      "time": 3750000000,
+      "thread": 4,
+      "bytes": 504550
+    },
+    {
+      "bytes": 521652,
+      "thread": 4,
+      "time": 4000000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 4,
+      "bytes": 573771,
+      "direction": "upload",
+      "time": 4250000000
+    },
+    {
+      "bytes": 597734,
+      "direction": "upload",
+      "time": 4500000000,
+      "thread": 4
+    },
+    {
+      "time": 4750000000,
+      "thread": 4,
+      "direction": "upload",
+      "bytes": 636607
+    },
+    {
+      "thread": 4,
+      "direction": "upload",
+      "bytes": 667647,
+      "time": 5000000000
+    },
+    {
+      "direction": "upload",
+      "thread": 4,
+      "time": 5250000000,
+      "bytes": 691600
+    },
+    {
+      "bytes": 727067,
+      "time": 5500000000,
+      "direction": "upload",
+      "thread": 4
+    },
+    {
+      "time": 5750000000,
+      "direction": "upload",
+      "bytes": 756584,
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "time": 6000000000,
+      "direction": "upload",
+      "bytes": 803490
+    },
+    {
+      "direction": "upload",
+      "time": 6250000000,
+      "bytes": 835836,
+      "thread": 4
+    },
+    {
+      "bytes": 870887,
+      "time": 6500000000,
+      "direction": "upload",
+      "thread": 4
+    },
+    {
+      "thread": 4,
+      "bytes": 916990,
+      "time": 6750000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 952407,
+      "thread": 4,
+      "time": 7000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 7301791276,
+      "thread": 4,
+      "bytes": 1007616,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 2918,
+      "time": 250000000,
+      "thread": 5
+    },
+    {
+      "thread": 5,
+      "time": 500000000,
+      "bytes": 48227,
+      "direction": "upload"
+    },
+    {
+      "time": 750000000,
+      "thread": 5,
+      "direction": "upload",
+      "bytes": 103895
+    },
+    {
+      "bytes": 157848,
+      "direction": "upload",
+      "time": 1000000000,
+      "thread": 5
+    },
+    {
+      "direction": "upload",
+      "thread": 5,
+      "bytes": 222034,
+      "time": 1250000000
+    },
+    {
+      "bytes": 282424,
+      "direction": "upload",
+      "thread": 5,
+      "time": 1500000000
+    },
+    {
+      "direction": "upload",
+      "thread": 5,
+      "bytes": 329182,
+      "time": 1750000000
+    },
+    {
+      "time": 2000000000,
+      "direction": "upload",
+      "thread": 5,
+      "bytes": 356152
+    },
+    {
+      "bytes": 380111,
+      "thread": 5,
+      "direction": "upload",
+      "time": 2250000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 406136,
+      "thread": 5,
+      "time": 2500000000
+    },
+    {
+      "time": 2750000000,
+      "thread": 5,
+      "bytes": 429165,
+      "direction": "upload"
+    },
+    {
+      "thread": 5,
+      "bytes": 451938,
+      "time": 3000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 470859,
+      "direction": "upload",
+      "time": 3250000000,
+      "thread": 5
+    },
+    {
+      "direction": "upload",
+      "bytes": 508178,
+      "thread": 5,
+      "time": 3500000000
+    },
+    {
+      "thread": 5,
+      "time": 3750000000,
+      "direction": "upload",
+      "bytes": 539601
+    },
+    {
+      "time": 4000000000,
+      "direction": "upload",
+      "bytes": 569949,
+      "thread": 5
+    },
+    {
+      "direction": "upload",
+      "bytes": 619168,
+      "time": 4250000000,
+      "thread": 5
+    },
+    {
+      "bytes": 648554,
+      "thread": 5,
+      "time": 4500000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 683517,
+      "time": 4750000000,
+      "thread": 5,
+      "direction": "upload"
+    },
+    {
+      "time": 5000000000,
+      "direction": "upload",
+      "thread": 5,
+      "bytes": 731306
+    },
+    {
+      "thread": 5,
+      "direction": "upload",
+      "bytes": 753551,
+      "time": 5250000000
+    },
+    {
+      "thread": 5,
+      "time": 5500000000,
+      "bytes": 797763,
+      "direction": "upload"
+    },
+    {
+      "thread": 5,
+      "bytes": 814908,
+      "time": 5750000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 857224,
+      "time": 6000000000,
+      "direction": "upload",
+      "thread": 5
+    },
+    {
+      "bytes": 883490,
+      "time": 6250000000,
+      "direction": "upload",
+      "thread": 5
+    },
+    {
+      "bytes": 917706,
+      "time": 6500000000,
+      "thread": 5,
+      "direction": "upload"
+    },
+    {
+      "bytes": 966772,
+      "thread": 5,
+      "direction": "upload",
+      "time": 6750000000
+    },
+    {
+      "time": 7000000000,
+      "bytes": 994030,
+      "thread": 5,
+      "direction": "upload"
+    },
+    {
+      "thread": 5,
+      "bytes": 1040384,
+      "time": 7276929463,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 119281,
+      "thread": 6,
+      "time": 250000000
+    },
+    {
+      "direction": "upload",
+      "thread": 6,
+      "bytes": 135198,
+      "time": 500000000
+    },
+    {
+      "time": 750000000,
+      "thread": 6,
+      "direction": "upload",
+      "bytes": 180342
+    },
+    {
+      "thread": 6,
+      "bytes": 234829,
+      "time": 1000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 294971,
+      "thread": 6,
+      "time": 1250000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 1500000000,
+      "thread": 6,
+      "bytes": 355368
+    },
+    {
+      "thread": 6,
+      "bytes": 400892,
+      "time": 1750000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 6,
+      "bytes": 429218,
+      "time": 2000000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 2250000000,
+      "thread": 6,
+      "bytes": 451390
+    },
+    {
+      "direction": "upload",
+      "bytes": 477927,
+      "thread": 6,
+      "time": 2500000000
+    },
+    {
+      "bytes": 501442,
+      "thread": 6,
+      "time": 2750000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 3000000000,
+      "bytes": 523896,
+      "thread": 6
+    },
+    {
+      "time": 3250000000,
+      "direction": "upload",
+      "thread": 6,
+      "bytes": 543438
+    },
+    {
+      "time": 3500000000,
+      "direction": "upload",
+      "bytes": 581485,
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "time": 3750000000,
+      "bytes": 635676,
+      "direction": "upload"
+    },
+    {
+      "thread": 6,
+      "bytes": 735677,
+      "time": 4000000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 6,
+      "direction": "upload",
+      "bytes": 800127,
+      "time": 4250000000
+    },
+    {
+      "time": 4500000000,
+      "direction": "upload",
+      "thread": 6,
+      "bytes": 914233
+    },
+    {
+      "time": 4750000000,
+      "direction": "upload",
+      "bytes": 1000083,
+      "thread": 6
+    },
+    {
+      "thread": 6,
+      "direction": "upload",
+      "bytes": 1063858,
+      "time": 5000000000
+    },
+    {
+      "bytes": 1150561,
+      "time": 5250000000,
+      "direction": "upload",
+      "thread": 6
+    },
+    {
+      "time": 5500000000,
+      "bytes": 1193176,
+      "thread": 6,
+      "direction": "upload"
+    },
+    {
+      "bytes": 1267989,
+      "time": 5750000000,
+      "direction": "upload",
+      "thread": 6
+    },
+    {
+      "time": 6000000000,
+      "thread": 6,
+      "bytes": 1315677,
+      "direction": "upload"
+    },
+    {
+      "bytes": 1384177,
+      "direction": "upload",
+      "time": 6250000000,
+      "thread": 6
+    },
+    {
+      "bytes": 1439756,
+      "direction": "upload",
+      "thread": 6,
+      "time": 6500000000
+    },
+    {
+      "time": 6750000000,
+      "bytes": 1508854,
+      "direction": "upload",
+      "thread": 6
+    },
+    {
+      "time": 7000000000,
+      "direction": "upload",
+      "thread": 6,
+      "bytes": 1581427
+    },
+    {
+      "time": 8204034455,
+      "thread": 6,
+      "bytes": 2220032,
+      "direction": "upload"
+    },
+    {
+      "thread": 7,
+      "time": 250000000,
+      "bytes": 3009,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 43248,
+      "time": 500000000,
+      "thread": 7
+    },
+    {
+      "direction": "upload",
+      "time": 750000000,
+      "bytes": 98906,
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "time": 1000000000,
+      "direction": "upload",
+      "bytes": 152623
+    },
+    {
+      "bytes": 210896,
+      "thread": 7,
+      "time": 1250000000,
+      "direction": "upload"
+    },
+    {
+      "time": 1500000000,
+      "bytes": 272221,
+      "thread": 7,
+      "direction": "upload"
+    },
+    {
+      "thread": 7,
+      "bytes": 318222,
+      "time": 1750000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 347599,
+      "thread": 7,
+      "time": 2000000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 7,
+      "direction": "upload",
+      "time": 2250000000,
+      "bytes": 369749
+    },
+    {
+      "bytes": 398332,
+      "thread": 7,
+      "direction": "upload",
+      "time": 2500000000
+    },
+    {
+      "time": 2750000000,
+      "thread": 7,
+      "direction": "upload",
+      "bytes": 421177
+    },
+    {
+      "direction": "upload",
+      "thread": 7,
+      "bytes": 443543,
+      "time": 3000000000
+    },
+    {
+      "time": 3250000000,
+      "direction": "upload",
+      "thread": 7,
+      "bytes": 463215
+    },
+    {
+      "thread": 7,
+      "direction": "upload",
+      "time": 3500000000,
+      "bytes": 500245
+    },
+    {
+      "thread": 7,
+      "time": 3750000000,
+      "direction": "upload",
+      "bytes": 526270
+    },
+    {
+      "time": 4000000000,
+      "direction": "upload",
+      "bytes": 562329,
+      "thread": 7
+    },
+    {
+      "time": 4250000000,
+      "thread": 7,
+      "direction": "upload",
+      "bytes": 593593
+    },
+    {
+      "bytes": 639708,
+      "time": 4500000000,
+      "thread": 7,
+      "direction": "upload"
+    },
+    {
+      "bytes": 677809,
+      "time": 4750000000,
+      "direction": "upload",
+      "thread": 7
+    },
+    {
+      "bytes": 719188,
+      "thread": 7,
+      "time": 5000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 756637,
+      "direction": "upload",
+      "time": 5250000000,
+      "thread": 7
+    },
+    {
+      "bytes": 795404,
+      "time": 5500000000,
+      "direction": "upload",
+      "thread": 7
+    },
+    {
+      "direction": "upload",
+      "thread": 7,
+      "bytes": 840945,
+      "time": 5750000000
+    },
+    {
+      "bytes": 880972,
+      "direction": "upload",
+      "time": 6000000000,
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "time": 6250000000,
+      "direction": "upload",
+      "bytes": 922841
+    },
+    {
+      "time": 6500000000,
+      "bytes": 966773,
+      "direction": "upload",
+      "thread": 7
+    },
+    {
+      "thread": 7,
+      "time": 6750000000,
+      "bytes": 1016093,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "thread": 7,
+      "bytes": 1067973,
+      "time": 7000000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 1126400,
+      "thread": 7,
+      "time": 7280148261
+    },
+    {
+      "direction": "upload",
+      "bytes": 3009,
+      "time": 250000000,
+      "thread": 8
+    },
+    {
+      "time": 500000000,
+      "thread": 8,
+      "bytes": 52199,
+      "direction": "upload"
+    },
+    {
+      "thread": 8,
+      "bytes": 108017,
+      "time": 750000000,
+      "direction": "upload"
+    },
+    {
+      "time": 1000000000,
+      "direction": "upload",
+      "bytes": 161885,
+      "thread": 8
+    },
+    {
+      "time": 1250000000,
+      "direction": "upload",
+      "bytes": 219524,
+      "thread": 8
+    },
+    {
+      "bytes": 280072,
+      "thread": 8,
+      "time": 1500000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 325937,
+      "direction": "upload",
+      "thread": 8,
+      "time": 1750000000
+    },
+    {
+      "bytes": 355934,
+      "direction": "upload",
+      "time": 2000000000,
+      "thread": 8
+    },
+    {
+      "time": 2250000000,
+      "direction": "upload",
+      "bytes": 377146,
+      "thread": 8
+    },
+    {
+      "time": 2500000000,
+      "bytes": 402704,
+      "thread": 8,
+      "direction": "upload"
+    },
+    {
+      "thread": 8,
+      "direction": "upload",
+      "time": 2750000000,
+      "bytes": 427562
+    },
+    {
+      "thread": 8,
+      "bytes": 448358,
+      "time": 3000000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 469643,
+      "direction": "upload",
+      "thread": 8,
+      "time": 3250000000
+    },
+    {
+      "direction": "upload",
+      "thread": 8,
+      "bytes": 507313,
+      "time": 3500000000
+    },
+    {
+      "thread": 8,
+      "time": 3750000000,
+      "bytes": 557122,
+      "direction": "upload"
+    },
+    {
+      "thread": 8,
+      "bytes": 577648,
+      "direction": "upload",
+      "time": 4000000000
+    },
+    {
+      "time": 4250000000,
+      "direction": "upload",
+      "thread": 8,
+      "bytes": 627371
+    },
+    {
+      "bytes": 660714,
+      "time": 4500000000,
+      "direction": "upload",
+      "thread": 8
+    },
+    {
+      "thread": 8,
+      "bytes": 691909,
+      "time": 4750000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 8,
+      "direction": "upload",
+      "time": 5000000000,
+      "bytes": 740567
+    },
+    {
+      "time": 5250000000,
+      "thread": 8,
+      "direction": "upload",
+      "bytes": 779717
+    },
+    {
+      "thread": 8,
+      "direction": "upload",
+      "time": 5500000000,
+      "bytes": 822015
+    },
+    {
+      "bytes": 863983,
+      "direction": "upload",
+      "thread": 8,
+      "time": 5750000000
+    },
+    {
+      "direction": "upload",
+      "thread": 8,
+      "bytes": 903256,
+      "time": 6000000000
+    },
+    {
+      "thread": 8,
+      "bytes": 954038,
+      "time": 6250000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "thread": 8,
+      "time": 6500000000,
+      "bytes": 993616
+    },
+    {
+      "bytes": 1042230,
+      "thread": 8,
+      "direction": "upload",
+      "time": 6750000000
+    },
+    {
+      "thread": 8,
+      "time": 7000000000,
+      "direction": "upload",
+      "bytes": 1086597
+    },
+    {
+      "direction": "upload",
+      "time": 7284588703,
+      "bytes": 1130496,
+      "thread": 8
+    },
+    {
+      "direction": "upload",
+      "time": 250000000,
+      "bytes": 2886,
+      "thread": 9
+    },
+    {
+      "time": 500000000,
+      "bytes": 54400,
+      "direction": "upload",
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "direction": "upload",
+      "bytes": 110841,
+      "time": 750000000
+    },
+    {
+      "bytes": 164872,
+      "direction": "upload",
+      "thread": 9,
+      "time": 1000000000
+    },
+    {
+      "time": 1250000000,
+      "bytes": 226116,
+      "thread": 9,
+      "direction": "upload"
+    },
+    {
+      "time": 1500000000,
+      "thread": 9,
+      "direction": "upload",
+      "bytes": 285855
+    },
+    {
+      "thread": 9,
+      "bytes": 332468,
+      "time": 1750000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 9,
+      "bytes": 360671,
+      "time": 2000000000,
+      "direction": "upload"
+    },
+    {
+      "time": 2250000000,
+      "direction": "upload",
+      "thread": 9,
+      "bytes": 383732
+    },
+    {
+      "direction": "upload",
+      "time": 2500000000,
+      "thread": 9,
+      "bytes": 409171
+    },
+    {
+      "direction": "upload",
+      "time": 2750000000,
+      "bytes": 435033,
+      "thread": 9
+    },
+    {
+      "bytes": 454742,
+      "time": 3000000000,
+      "thread": 9,
+      "direction": "upload"
+    },
+    {
+      "thread": 9,
+      "bytes": 475424,
+      "time": 3250000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 512442,
+      "time": 3500000000,
+      "direction": "upload",
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "bytes": 550955,
+      "time": 3750000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "thread": 9,
+      "bytes": 580951,
+      "time": 4000000000
+    },
+    {
+      "time": 4250000000,
+      "bytes": 639125,
+      "direction": "upload",
+      "thread": 9
+    },
+    {
+      "bytes": 664704,
+      "time": 4500000000,
+      "direction": "upload",
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "direction": "upload",
+      "bytes": 710194,
+      "time": 4750000000
+    },
+    {
+      "thread": 9,
+      "time": 5000000000,
+      "direction": "upload",
+      "bytes": 746804
+    },
+    {
+      "time": 5250000000,
+      "bytes": 774090,
+      "direction": "upload",
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "direction": "upload",
+      "time": 5500000000,
+      "bytes": 818024
+    },
+    {
+      "bytes": 844935,
+      "direction": "upload",
+      "time": 5750000000,
+      "thread": 9
+    },
+    {
+      "thread": 9,
+      "bytes": 894001,
+      "time": 6000000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 9,
+      "bytes": 923293,
+      "time": 6250000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 6500000000,
+      "thread": 9,
+      "bytes": 964736
+    },
+    {
+      "bytes": 1010256,
+      "thread": 9,
+      "time": 6750000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 1047492,
+      "thread": 9,
+      "time": 7000000000
+    },
+    {
+      "thread": 9,
+      "time": 7314888978,
+      "direction": "upload",
+      "bytes": 1101824
+    },
+    {
+      "time": 250000000,
+      "direction": "upload",
+      "bytes": 2888,
+      "thread": 10
+    },
+    {
+      "direction": "upload",
+      "bytes": 44560,
+      "thread": 10,
+      "time": 500000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 70823,
+      "thread": 10,
+      "time": 750000000
+    },
+    {
+      "direction": "upload",
+      "thread": 10,
+      "time": 1000000000,
+      "bytes": 119430
+    },
+    {
+      "bytes": 154099,
+      "thread": 10,
+      "direction": "upload",
+      "time": 1250000000
+    },
+    {
+      "bytes": 187324,
+      "thread": 10,
+      "time": 1500000000,
+      "direction": "upload"
+    },
+    {
+      "bytes": 239433,
+      "thread": 10,
+      "direction": "upload",
+      "time": 1750000000
+    },
+    {
+      "time": 2000000000,
+      "bytes": 252615,
+      "direction": "upload",
+      "thread": 10
+    },
+    {
+      "direction": "upload",
+      "thread": 10,
+      "time": 2250000000,
+      "bytes": 282388
+    },
+    {
+      "thread": 10,
+      "bytes": 308428,
+      "time": 2500000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 10,
+      "time": 2750000000,
+      "bytes": 328332,
+      "direction": "upload"
+    },
+    {
+      "time": 3000000000,
+      "direction": "upload",
+      "thread": 10,
+      "bytes": 351521
+    },
+    {
+      "direction": "upload",
+      "bytes": 377971,
+      "thread": 10,
+      "time": 3250000000
+    },
+    {
+      "time": 3500000000,
+      "bytes": 413835,
+      "direction": "upload",
+      "thread": 10
+    },
+    {
+      "bytes": 434004,
+      "time": 3750000000,
+      "direction": "upload",
+      "thread": 10
+    },
+    {
+      "time": 4000000000,
+      "thread": 10,
+      "bytes": 467223,
+      "direction": "upload"
+    },
+    {
+      "bytes": 507100,
+      "direction": "upload",
+      "time": 4250000000,
+      "thread": 10
+    },
+    {
+      "bytes": 545464,
+      "thread": 10,
+      "time": 4500000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 10,
+      "bytes": 582888,
+      "direction": "upload",
+      "time": 4750000000
+    },
+    {
+      "bytes": 628232,
+      "thread": 10,
+      "time": 5000000000,
+      "direction": "upload"
+    },
+    {
+      "thread": 10,
+      "time": 5250000000,
+      "direction": "upload",
+      "bytes": 661671
+    },
+    {
+      "thread": 10,
+      "direction": "upload",
+      "time": 5500000000,
+      "bytes": 698038
+    },
+    {
+      "time": 5750000000,
+      "bytes": 744081,
+      "thread": 10,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 6000000000,
+      "bytes": 775674,
+      "thread": 10
+    },
+    {
+      "time": 6250000000,
+      "bytes": 821477,
+      "direction": "upload",
+      "thread": 10
+    },
+    {
+      "thread": 10,
+      "time": 6500000000,
+      "bytes": 854741,
+      "direction": "upload"
+    },
+    {
+      "bytes": 892895,
+      "time": 6750000000,
+      "thread": 10,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "bytes": 946777,
+      "time": 7000000000,
+      "thread": 10
+    },
+    {
+      "direction": "upload",
+      "bytes": 983040,
+      "thread": 10,
+      "time": 7284885590
+    },
+    {
+      "direction": "upload",
+      "thread": 11,
+      "bytes": 2912,
+      "time": 250000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 46936,
+      "time": 500000000,
+      "thread": 11
+    },
+    {
+      "time": 750000000,
+      "direction": "upload",
+      "thread": 11,
+      "bytes": 71159
+    },
+    {
+      "bytes": 127239,
+      "direction": "upload",
+      "thread": 11,
+      "time": 1000000000
+    },
+    {
+      "thread": 11,
+      "bytes": 168425,
+      "time": 1250000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "thread": 11,
+      "time": 1500000000,
+      "bytes": 210722
+    },
+    {
+      "direction": "upload",
+      "thread": 11,
+      "bytes": 254552,
+      "time": 1750000000
+    },
+    {
+      "bytes": 275252,
+      "time": 2000000000,
+      "direction": "upload",
+      "thread": 11
+    },
+    {
+      "bytes": 294946,
+      "thread": 11,
+      "direction": "upload",
+      "time": 2250000000
+    },
+    {
+      "direction": "upload",
+      "bytes": 326159,
+      "time": 2500000000,
+      "thread": 11
+    },
+    {
+      "bytes": 352288,
+      "thread": 11,
+      "direction": "upload",
+      "time": 2750000000
+    },
+    {
+      "thread": 11,
+      "bytes": 369905,
+      "direction": "upload",
+      "time": 3000000000
+    },
+    {
+      "thread": 11,
+      "direction": "upload",
+      "bytes": 397388,
+      "time": 3250000000
+    },
+    {
+      "bytes": 430273,
+      "thread": 11,
+      "time": 3500000000,
+      "direction": "upload"
+    },
+    {
+      "direction": "upload",
+      "time": 3750000000,
+      "bytes": 471688,
+      "thread": 11
+    },
+    {
+      "time": 4000000000,
+      "direction": "upload",
+      "bytes": 495202,
+      "thread": 11
+    },
+    {
+      "time": 4250000000,
+      "bytes": 537853,
+      "direction": "upload",
+      "thread": 11
+    },
+    {
+      "time": 4500000000,
+      "thread": 11,
+      "bytes": 566423,
+      "direction": "upload"
+    },
+    {
+      "thread": 11,
+      "time": 4750000000,
+      "direction": "upload",
+      "bytes": 592567
+    },
+    {
+      "direction": "upload",
+      "thread": 11,
+      "time": 5000000000,
+      "bytes": 631824
+    },
+    {
+      "time": 5250000000,
+      "direction": "upload",
+      "bytes": 647136,
+      "thread": 11
+    },
+    {
+      "time": 5500000000,
+      "bytes": 693236,
+      "direction": "upload",
+      "thread": 11
+    },
+    {
+      "direction": "upload",
+      "bytes": 719795,
+      "time": 5750000000,
+      "thread": 11
+    },
+    {
+      "time": 6000000000,
+      "bytes": 754573,
+      "direction": "upload",
+      "thread": 11
+    },
+    {
+      "time": 6250000000,
+      "thread": 11,
+      "direction": "upload",
+      "bytes": 789857
+    },
+    {
+      "time": 6500000000,
+      "direction": "upload",
+      "bytes": 822109,
+      "thread": 11
+    },
+    {
+      "time": 6750000000,
+      "bytes": 870615,
+      "direction": "upload",
+      "thread": 11
+    },
+    {
+      "time": 7000000000,
+      "direction": "upload",
+      "bytes": 903948,
+      "thread": 11
+    },
+    {
+      "direction": "upload",
+      "thread": 11,
+      "time": 7270981748,
+      "bytes": 946176
+    }
+  ],
+  "test_speed_download": 120000,
+  "model": "iPhone13,2",
+  "client_language": "en",
+  "client_version": "0.3",
+  "test_nsec_download": 7003655583,
+  "device": "iPhone13,2",
+  "client_name": "RMBT",
+  "voip_result_jitter_millis": "6.6",
+  "pings": [
+    {
+      "value_server": 196120421,
+      "value": 100000000,
+      "time_ns": 4097691292
+    },
+    {
+      "value_server": 196799391,
+      "value": 110000000,
+      "time_ns": 4490900459
+    },
+    {
+      "value_server": 188077115,
+      "time_ns": 4886586500,
+      "value": 210000000
+    },
+    {
+      "value": 225673375,
+      "value_server": 210163114,
+      "time_ns": 5288588417
+    },
+    {
+      "value": 235680958,
+      "time_ns": 5677826500,
+      "value_server": 192178780
+    }
+  ],
+  "test_token": "${testToken}",
+  "test_ping_shortest": 188077115,
+  "network_type": 20,
+  "test_num_threads": 12,
+  "time": ${time},
+  "geoLocations": [
+    {
+      "altitude": 6.301590663380921,
+      "speed": 0.06367044922059346,
+      "geo_long": 30.479504333571644,
+      "accuracy": 4.70309788858499,
+      "provider": "GPS",
+      "geo_lat": 36.41614101611507,
+      "tstamp": "2022-05-08T14:07:53+0300",
+      "bearing": -1
+    }
+  ],
+  "test_speed_upload": 9000,
+  "test_bytes_upload": 14122642,
+  "dual_sim": true,
+  "telephony_network_is_roaming": true,
+  "telephony_network_operator": "555-77",
+  "telephony_network_operator_name": "Turkcell network",
+  "telephony_network_country": "networkCountry",
+  "test_nsec_upload": 7270981748,
+  "plattform": "iOS",
+  "test_bytes_download": 165276311,
+  "voip_result_packet_loss_percents": "0.0",
+  "product": ""
+}

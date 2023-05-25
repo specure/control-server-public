@@ -1,0 +1,8 @@
+{
+  "term" : {
+    "packageId.keyword" : {
+      "value" : 2,
+      "boost" : 1.0
+    }
+  }
+}

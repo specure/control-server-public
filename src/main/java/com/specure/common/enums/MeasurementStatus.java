@@ -1,0 +1,33 @@
+package com.specure.common.enums;
+
+public enum MeasurementStatus {
+    STARTED,
+    FINISHED,
+    ABORTED,
+    END,
+    WAIT,
+    INIT,
+    PING,
+    DOWN,
+    UP,
+    INIT_UP,
+    SPEEDTEST_END,
+    QOS_TEST_RUNNING,
+    QOS_END,
+    PACKET_LOSS_AND_JITTER,
+    ERROR_STARTED,
+    ERROR_FINISHED,
+    ERROR_ABORTED,
+    ERROR_END,
+    ERROR_WAIT,
+    ERROR_INIT,
+    ERROR_PING,
+    ERROR_DOWN,
+    ERROR_UP,
+    ERROR_INIT_UP,
+    ERROR_SPEEDTEST_END,
+    ERROR_QOS_TEST_RUNNING,
+    ERROR_QOS_END,
+    ERROR_PACKET_LOSS_AND_JITTER,
+    ERROR
+}

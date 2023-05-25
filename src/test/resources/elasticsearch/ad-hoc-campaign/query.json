@@ -1,0 +1,43 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "adHocCampaign.keyword" : {
+            "value" : "c32436fa-2a01-11ec-9621-0242ac130002",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "serverType.keyword" : {
+            "value" : "ON_NET",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "term" : {
+          "probePort.keyword" : {
+            "value" : "port3",
+            "boost" : 1.0
+          }
+        }
+      },
+      {
+        "range" : {
+          "timestamp" : {
+            "from" : "2020-03-20T00:00:00.000Z",
+            "to" : "2020-03-24T23:59:00.000Z",
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

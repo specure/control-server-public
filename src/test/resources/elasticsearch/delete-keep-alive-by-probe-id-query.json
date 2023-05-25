@@ -1,0 +1,8 @@
+{
+  "term" : {
+    "probeId.keyword" : {
+      "value" : "DEFAULT_PROBE_ID",
+      "boost" : 1.0
+    }
+  }
+}

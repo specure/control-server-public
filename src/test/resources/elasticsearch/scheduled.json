@@ -1,0 +1,19 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "range" : {
+          "timestamp" : {
+            "from" : null,
+            "to" : "2022-04-15",
+            "include_lower" : true,
+            "include_upper" : true,
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

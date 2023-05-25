@@ -1,0 +1,16 @@
+{
+  "bool" : {
+    "must" : [
+      {
+        "term" : {
+          "clientUuid.keyword" : {
+            "value" : "9e1ccb36-59e3-11eb-ae93-0242ac130002",
+            "boost" : 1.0
+          }
+        }
+      }
+    ],
+    "adjust_pure_negative" : true,
+    "boost" : 1.0
+  }
+}

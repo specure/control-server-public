@@ -1,0 +1,23 @@
+{
+  "test_uuid": "d52b2226-7202-4b03-a367-9a5b644cfc25",
+  "open_test_uuid": "Od52b2226-7202-4b03-a367-9a5b644cfc25",
+  "result_url": "http://localhost:${randomServerPort}/mobile/result",
+  "result_qos_url": "http://localhost:${randomServerPort}/mobile/resultQoS",
+  "test_duration": "7",
+  "test_server_name": "EKIP Server (Podgorica)",
+  "test_server_type": "RMBT",
+  "test_wait": 0,
+  "test_server_address": "ekip-m01.customers.nettest.org",
+  "test_numthreads": "5",
+  "test_server_port": 5232,
+  "test_server_encryption": true,
+  "test_token": "d52b2226-7202-4b03-a367-9a5b644cfc25_1652008073_9GbZDHi6jizms5Nle/CK0StEU44=",
+  "test_numpings": "10",
+  "test_id": 1,
+  "client_remote_ip": "178.240.184.173",
+  "loop_uuid": null,
+  "platform": "IOS",
+  "app_version": "0.0.1",
+  "error": [
+  ]
+}
